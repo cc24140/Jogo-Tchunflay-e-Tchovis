@@ -376,7 +376,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 106,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/Users/u24140/Documents/GitHub",
+      "PayloadDebugContentSnippet": "/Users/u24153/Documents/GitHub",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -410,7 +410,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 61716,
       "PayloadLength": 73,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24140/Docume",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24153/Docume",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -4779,7 +4779,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 73596,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/Users/u24140/Documents/GitHub",
+      "PayloadDebugContentSnippet": "/Users/u24153/Documents/GitHub",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -4813,7 +4813,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 126268,
       "PayloadLength": 73,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24140/Docume",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24153/Docume",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -6148,7 +6148,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 138572,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/Users/u24140/Documents/GitHub",
+      "PayloadDebugContentSnippet": "/Users/u24153/Documents/GitHub",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -6182,7 +6182,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 213698,
       "PayloadLength": 73,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24140/Docume",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24153/Docume",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -7822,7 +7822,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 226157,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/Users/u24140/Documents/GitHub",
+      "PayloadDebugContentSnippet": "/Users/u24153/Documents/GitHub",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -7856,7 +7856,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 275552,
       "PayloadLength": 73,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24140/Docume",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24153/Docume",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -9075,7 +9075,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 288354,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/Users/u24140/Documents/GitHub",
+      "PayloadDebugContentSnippet": "/Users/u24153/Documents/GitHub",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -9109,7 +9109,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 334456,
       "PayloadLength": 73,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24140/Docume",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24153/Docume",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -10236,7 +10236,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 347341,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/Users/u24140/Documents/GitHub",
+      "PayloadDebugContentSnippet": "/Users/u24153/Documents/GitHub",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -10270,7 +10270,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 399080,
       "PayloadLength": 73,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24140/Docume",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24153/Docume",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -11475,7 +11475,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 411952,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/Users/u24140/Documents/GitHub",
+      "PayloadDebugContentSnippet": "/Users/u24153/Documents/GitHub",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -11509,7 +11509,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 468821,
       "PayloadLength": 73,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24140/Docume",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24153/Docume",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -12838,7 +12838,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 481714,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/Users/u24140/Documents/GitHub",
+      "PayloadDebugContentSnippet": "/Users/u24153/Documents/GitHub",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -12872,7 +12872,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 528714,
       "PayloadLength": 73,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24140/Docume",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24153/Docume",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -13991,7 +13991,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 541603,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/Users/u24140/Documents/GitHub",
+      "PayloadDebugContentSnippet": "/Users/u24153/Documents/GitHub",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -14025,7 +14025,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 586532,
       "PayloadLength": 73,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24140/Docume",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24153/Docume",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -15105,7 +15105,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 599002,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/Users/u24140/Documents/GitHub",
+      "PayloadDebugContentSnippet": "/Users/u24153/Documents/GitHub",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -15139,7 +15139,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 643458,
       "PayloadLength": 73,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24140/Docume",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24153/Docume",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -16207,7 +16207,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 655940,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/Users/u24140/Documents/GitHub",
+      "PayloadDebugContentSnippet": "/Users/u24153/Documents/GitHub",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -16241,7 +16241,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 700851,
       "PayloadLength": 73,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24140/Docume",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24153/Docume",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -17319,7 +17319,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 713323,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/Users/u24140/Documents/GitHub",
+      "PayloadDebugContentSnippet": "/Users/u24153/Documents/GitHub",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -17353,7 +17353,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 806610,
       "PayloadLength": 73,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24140/Docume",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24153/Docume",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -19359,7 +19359,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 819393,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/Users/u24140/Documents/GitHub",
+      "PayloadDebugContentSnippet": "/Users/u24153/Documents/GitHub",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -19393,7 +19393,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 869102,
       "PayloadLength": 73,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24140/Docume",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24153/Docume",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -20564,7 +20564,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 881790,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/Users/u24140/Documents/GitHub",
+      "PayloadDebugContentSnippet": "/Users/u24153/Documents/GitHub",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -20598,7 +20598,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 933087,
       "PayloadLength": 73,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24140/Docume",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24153/Docume",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -21816,7 +21816,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 945544,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/Users/u24140/Documents/GitHub",
+      "PayloadDebugContentSnippet": "/Users/u24153/Documents/GitHub",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -21850,7 +21850,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 995510,
       "PayloadLength": 73,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24140/Docume",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24153/Docume",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -23029,7 +23029,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1008217,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/Users/u24140/Documents/GitHub",
+      "PayloadDebugContentSnippet": "/Users/u24153/Documents/GitHub",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -23063,7 +23063,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1055268,
       "PayloadLength": 73,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24140/Docume",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24153/Docume",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -24244,7 +24244,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1068329,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/Users/u24140/Documents/GitHub",
+      "PayloadDebugContentSnippet": "/Users/u24153/Documents/GitHub",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -24278,7 +24278,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1114651,
       "PayloadLength": 73,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24140/Docume",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24153/Docume",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -25415,7 +25415,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1127617,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/Users/u24140/Documents/GitHub",
+      "PayloadDebugContentSnippet": "/Users/u24153/Documents/GitHub",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -25449,7 +25449,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1178241,
       "PayloadLength": 73,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24140/Docume",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24153/Docume",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -26660,7 +26660,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1191223,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/Users/u24140/Documents/GitHub",
+      "PayloadDebugContentSnippet": "/Users/u24153/Documents/GitHub",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -26694,7 +26694,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1237486,
       "PayloadLength": 73,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24140/Docume",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24153/Docume",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -27805,7 +27805,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1250446,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/Users/u24140/Documents/GitHub",
+      "PayloadDebugContentSnippet": "/Users/u24153/Documents/GitHub",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -27839,7 +27839,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1299984,
       "PayloadLength": 73,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24140/Docume",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24153/Docume",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -29057,7 +29057,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1312534,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/Users/u24140/Documents/GitHub",
+      "PayloadDebugContentSnippet": "/Users/u24153/Documents/GitHub",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -29091,7 +29091,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1384668,
       "PayloadLength": 73,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24140/Docume",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24153/Docume",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -30770,7 +30770,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1397618,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/Users/u24140/Documents/GitHub",
+      "PayloadDebugContentSnippet": "/Users/u24153/Documents/GitHub",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -30804,7 +30804,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1444516,
       "PayloadLength": 73,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24140/Docume",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24153/Docume",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -31961,7 +31961,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1457665,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/Users/u24140/Documents/GitHub",
+      "PayloadDebugContentSnippet": "/Users/u24153/Documents/GitHub",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -31995,7 +31995,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1508843,
       "PayloadLength": 73,
-      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24140/Docume",
+      "PayloadDebugContentSnippet": "/pathmap:\"/Users/u24153/Docume",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -33236,7 +33236,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1521787,
       "PayloadLength": 60,
-      "PayloadDebugContentSnippet": "/Users/u24140/Documents/GitHub",
+      "PayloadDebugContentSnippet": "/Users/u24153/Documents/GitHub",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -35645,7 +35645,7 @@
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
       "DisplayName": "Extracting script serialization layouts",
-      "Action": "\"/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/Scripting/netcorerun/netcorerun\" \"/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/BuildPipeline/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"/Users/u24140/Documents/GitHub/Jogo-Tchunflay-e-Tchovis/Jogo/Library/ScriptAssemblies/Assembly-CSharp.dll\" -a=\"/Users/u24140/Documents/GitHub/Jogo-Tchunflay-e-Tchovis/Jogo/Library/ScriptAssemblies/Unity.AI.Navigation.dll\" -a=\"/Users/u24140/Documents/GitHub/Jogo-Tchunflay-e-Tchovis/Jogo/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.004.dll\" -a=\"/Users/u24140/Documents/GitHub/Jogo-Tchunflay-e-Tchovis/Jogo/Library/ScriptAssemblies/Unity.Multiplayer.Center.Common.dll\" -a=\"/Users/u24140/Documents/GitHub/Jogo-Tchunflay-e-Tchovis/Jogo/Library/ScriptAssemblies/Unity.TextMeshPro.dll\" -a=\"/Users/u24140/Documents/GitHub/Jogo-Tchunflay-e-Tchovis/Jogo/Library/ScriptAssemblies/Unity.Timeline.dll\" -a=\"/Users/u24140/Documents/GitHub/Jogo-Tchunflay-e-Tchovis/Jogo/Library/ScriptAssemblies/UnityEngine.TestRunner.dll\" -a=\"/Users/u24140/Documents/GitHub/Jogo-Tchunflay-e-Tchovis/Jogo/Library/ScriptAssemblies/UnityEngine.UI.dll\" -a=\"/Users/u24140/Documents/GitHub/Jogo-Tchunflay-e-Tchovis/Jogo/Library/PackageCache/com.unity.ext.nunit@d8c07649098d/net40/unity-custom/nunit.framework.dll\" -s=\"/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine\" -s=\"/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netfx\" -s=\"/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard\" -s=\"/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/Scripting/NetStandard/EditorExtensions\" -s=\"/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/Scripting/NetStandard/Extensions/2.0.0\" -s=\"/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/Scripting/NetStandard/ref/2.1.0\" -s=\"/Users/u24140/Documents/GitHub/Jogo-Tchunflay-e-Tchovis/Jogo/Library/ScriptAssemblies\" -s=\"/Users/u24140/Documents/GitHub/Jogo-Tchunflay-e-Tchovis/Jogo/Library/PackageCache/com.unity.ext.nunit@d8c07649098d/net40/unity-custom\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+      "Action": "\"/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/Scripting/netcorerun/netcorerun\" \"/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/BuildPipeline/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"/Users/u24153/Documents/GitHub/Jogo-Tchunflay-e-Tchovis/Jogo/Library/ScriptAssemblies/Assembly-CSharp.dll\" -a=\"/Users/u24153/Documents/GitHub/Jogo-Tchunflay-e-Tchovis/Jogo/Library/ScriptAssemblies/Unity.AI.Navigation.dll\" -a=\"/Users/u24153/Documents/GitHub/Jogo-Tchunflay-e-Tchovis/Jogo/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.004.dll\" -a=\"/Users/u24153/Documents/GitHub/Jogo-Tchunflay-e-Tchovis/Jogo/Library/ScriptAssemblies/Unity.Multiplayer.Center.Common.dll\" -a=\"/Users/u24153/Documents/GitHub/Jogo-Tchunflay-e-Tchovis/Jogo/Library/ScriptAssemblies/Unity.TextMeshPro.dll\" -a=\"/Users/u24153/Documents/GitHub/Jogo-Tchunflay-e-Tchovis/Jogo/Library/ScriptAssemblies/Unity.Timeline.dll\" -a=\"/Users/u24153/Documents/GitHub/Jogo-Tchunflay-e-Tchovis/Jogo/Library/ScriptAssemblies/UnityEngine.TestRunner.dll\" -a=\"/Users/u24153/Documents/GitHub/Jogo-Tchunflay-e-Tchovis/Jogo/Library/ScriptAssemblies/UnityEngine.UI.dll\" -a=\"/Users/u24153/Documents/GitHub/Jogo-Tchunflay-e-Tchovis/Jogo/Library/PackageCache/com.unity.ext.nunit@d8c07649098d/net40/unity-custom/nunit.framework.dll\" -s=\"/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine\" -s=\"/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netfx\" -s=\"/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard\" -s=\"/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/Scripting/NetStandard/EditorExtensions\" -s=\"/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/Scripting/NetStandard/Extensions/2.0.0\" -s=\"/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/Scripting/NetStandard/ref/2.1.0\" -s=\"/Users/u24153/Documents/GitHub/Jogo-Tchunflay-e-Tchovis/Jogo/Library/ScriptAssemblies\" -s=\"/Users/u24153/Documents/GitHub/Jogo-Tchunflay-e-Tchovis/Jogo/Library/PackageCache/com.unity.ext.nunit@d8c07649098d/net40/unity-custom\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
       "Inputs": [
         "/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/Scripting/netcorerun/netcorerun",
         "/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/BuildPipeline/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
@@ -35814,7 +35814,7 @@
   ],
   "StatSignatures": [
     {
-      "File": "/Users/u24140/Documents/GitHub/Jogo-Tchunflay-e-Tchovis/Jogo/getconf"
+      "File": "/Users/u24153/Documents/GitHub/Jogo-Tchunflay-e-Tchovis/Jogo/getconf"
     },
     {
       "File": "Assets/csc.rsp"
@@ -35932,6 +35932,6 @@
   "SharedResources": [],
   "Scanners": [],
   "Identifier": "Library/Bee/200b0aE.dag.json",
-  "PayloadsFile": "/Users/u24140/Documents/GitHub/Jogo-Tchunflay-e-Tchovis/Jogo/Library/Bee/200b0aE.dag.payloads",
+  "PayloadsFile": "/Users/u24153/Documents/GitHub/Jogo-Tchunflay-e-Tchovis/Jogo/Library/Bee/200b0aE.dag.payloads",
   "RelativePathToRoot": "../.."
 }

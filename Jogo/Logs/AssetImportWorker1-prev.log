@@ -7,9 +7,9 @@ Darwin version:          25.3.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        16384 MB
-Date:                    2026-05-13T10:55:46Z
+Date:                    2026-05-27T11:01:13Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-u24140" at "2026-05-13T10:55:46.111857Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-u24140" at "2026-05-27T11:01:13.755821Z"
 
 COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/MacOS/Unity
@@ -19,11 +19,11 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker1
 -projectPath
-/Users/u24140/Documents/prof jog dig/PRATICA 3/Pratica3
+/Users/u24140/Documents/GitHub/Jogo-Tchunflay-e-Tchovis/Jogo
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-49417
+55193
 -licensingIpc
 LicenseClient-u24140
 -job-worker-count
@@ -33,8 +33,8 @@ LicenseClient-u24140
 -gc-helper-count
 1
 -name AssetImport
-Successfully changed project path to: /Users/u24140/Documents/prof jog dig/PRATICA 3/Pratica3
-/Users/u24140/Documents/prof jog dig/PRATICA 3/Pratica3
+Successfully changed project path to: /Users/u24140/Documents/GitHub/Jogo-Tchunflay-e-Tchovis/Jogo
+/Users/u24140/Documents/GitHub/Jogo-Tchunflay-e-Tchovis/Jogo
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-allocator-temp-initial-block-size-main=262144"
     "memorysetup-allocator-temp-initial-block-size-worker=262144"
@@ -72,7 +72,7 @@ Successfully changed project path to: /Users/u24140/Documents/prof jog dig/PRATI
     "memorysetup-temp-allocator-size-gfx=262144"
 Player connection [8467181824]  Target information:
 
-Player connection [8467181824]  * "[IP] 177.220.18.58 [Port] 0 [Flags] 2 [Guid] 2750548970 [EditorId] 2750548970 [Version] 1048832 [Id] OSXEditor(0,lapa16.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8467181824]  * "[IP] 177.220.18.58 [Port] 0 [Flags] 2 [Guid] 3942343590 [EditorId] 3942343590 [Version] 1048832 [Id] OSXEditor(0,lapa16.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
 Player connection [8467181824] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [8467181824] Host joined alternative multi-casting on [225.0.0.222:34997]...
@@ -87,11 +87,11 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.2f1 (a9779f353c9b)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/u24140/Documents/prof jog dig/PRATICA 3/Pratica3/Assets
+[Subsystems] Discovering subsystems at path /Users/u24140/Documents/GitHub/Jogo-Tchunflay-e-Tchovis/Jogo/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
  preferred device: Apple M1 (high power)
 Metal devices available: 1
@@ -108,54 +108,54 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/Scripting/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56082
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56382
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.3.2f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000442 seconds.
+Registered in 0.000468 seconds.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              a5179d2ea18d45fd888130110504a122
-  Correlation Id:          d3d1655485c466414bcc14abefc7b82f
-  External correlation Id: 2922266620105738760
+  Session Id:              bfcd3d3923cc4f8da6c535d7fe86d7c9
+  Correlation Id:          cc85549d9906c05660600fed8cd1eaa3
+  External correlation Id: 6860874418217025197
   Machine Id:              70sHp2US6Ry0hVPdQxJmAs1R93Y=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-u24140" (connect: 0.00s, validation: 0.00s, handshake: 0.67s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-u24140-notifications" at "2026-05-13T10:55:46.782729Z"
-[Licensing::Module] Licensing Background thread has ended after 0.67s
-- Loaded All Assemblies, in  0.270 seconds
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-u24140" (connect: 0.00s, validation: 0.00s, handshake: 0.68s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-u24140-notifications" at "2026-05-27T11:01:14.435835Z"
+[Licensing::Module] Licensing Background thread has ended after 0.68s
+- Loaded All Assemblies, in  0.281 seconds
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.272 seconds
-Domain Reload Profiling: 541ms
-	BeginReloadAssembly (71ms)
+- Finished resetting the current domain, in  0.274 seconds
+Domain Reload Profiling: 555ms
+	BeginReloadAssembly (82ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (31ms)
+	RebuildCommonClasses (29ms)
 	RebuildNativeTypeToScriptingClass (11ms)
 	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (129ms)
-		LoadAssemblies (70ms)
+	LoadAllAssembliesAndSetupDomain (131ms)
+		LoadAssemblies (82ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (127ms)
-			TypeCache.Refresh (125ms)
-				TypeCache.ScanAssembly (113ms)
+		AnalyzeDomain (128ms)
+			TypeCache.Refresh (127ms)
+				TypeCache.ScanAssembly (114ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (272ms)
+	FinalizeReload (274ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (242ms)
+		SetupLoadedEditorAssemblies (246ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (30ms)
 			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (58ms)
-			ProcessInitializeOnLoadAttributes (96ms)
-			ProcessInitializeOnLoadMethodAttributes (56ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (102ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -171,8 +171,8 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.296 seconds
-Refreshing native plugins compatible for Editor in 0.10 ms, found 1 plugins.
+- Loaded All Assemblies, in  0.310 seconds
+Refreshing native plugins compatible for Editor in 0.13 ms, found 1 plugins.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -180,1334 +180,53 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.368 seconds
-Domain Reload Profiling: 664ms
-	BeginReloadAssembly (86ms)
+- Finished resetting the current domain, in  0.360 seconds
+Domain Reload Profiling: 670ms
+	BeginReloadAssembly (89ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (16ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (10ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (11ms)
 	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (155ms)
-		LoadAssemblies (129ms)
+	LoadAllAssembliesAndSetupDomain (164ms)
+		LoadAssemblies (140ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (65ms)
-			TypeCache.Refresh (54ms)
-				TypeCache.ScanAssembly (45ms)
+		AnalyzeDomain (64ms)
+			TypeCache.Refresh (53ms)
+				TypeCache.ScanAssembly (43ms)
 			BuildScriptInfoCaches (8ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (368ms)
+	FinalizeReload (360ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (297ms)
+		SetupLoadedEditorAssemblies (292ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (1ms)
 			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (76ms)
+			BeforeProcessingInitializeOnLoad (73ms)
 			ProcessInitializeOnLoadAttributes (190ms)
-			ProcessInitializeOnLoadMethodAttributes (27ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
-Launching external process: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Helpers/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.14 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1962 unused Assets / (0.6 MB). Loaded Objects now: 2551.
-Memory consumption went from 75.1 MB to 74.4 MB.
-Total: 4.836208 ms (FindLiveObjects: 0.122958 ms CreateObjectMapping: 0.059917 ms MarkObjects: 4.268833 ms  DeleteObjects: 0.383750 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 369.055903 seconds.
-  path: Assets/Animations/Poeira/Dust.controller
-  artifactKey: Guid(c23c8b26bb6674b4aa70f0c67bc1db9a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Animations/Poeira/Dust.controller using Guid(c23c8b26bb6674b4aa70f0c67bc1db9a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9771b523c99058c6a7c6460f1d5bc4b2') in 0.040691417 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Scenes/cena01.unity
-  artifactKey: Guid(312c0b3c413274447beeedfbaf4b3c61) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/cena01.unity using Guid(312c0b3c413274447beeedfbaf4b3c61) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '22a4100ac79a1c75efcd5c8c8ef743d4') in 0.002099875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Scripts/InstanciarPrefab.cs
-  artifactKey: Guid(17f221ce1886145029d79ba5ee337d7a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scripts/InstanciarPrefab.cs using Guid(17f221ce1886145029d79ba5ee337d7a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '25e0401da536b008dd590f038d56c9b8') in 0.005282625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Thread 0x16f44b000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.276 seconds
-Refreshing native plugins compatible for Editor in 0.09 ms, found 1 plugins.
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.434 seconds
-Domain Reload Profiling: 710ms
-	BeginReloadAssembly (96ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (12ms)
-	LoadAllAssembliesAndSetupDomain (132ms)
-		LoadAssemblies (123ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (47ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (39ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (434ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (362ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (98ms)
-			ProcessInitializeOnLoadAttributes (230ms)
-			ProcessInitializeOnLoadMethodAttributes (29ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
-Refreshing native plugins compatible for Editor in 0.14 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1960 unused Assets / (205.7 KB). Loaded Objects now: 2554.
-Memory consumption went from 84.3 MB to 84.1 MB.
-Total: 5.314834 ms (FindLiveObjects: 0.139334 ms CreateObjectMapping: 0.060750 ms MarkObjects: 4.791375 ms  DeleteObjects: 0.322584 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x16dd4f000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.275 seconds
-Refreshing native plugins compatible for Editor in 0.12 ms, found 1 plugins.
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.436 seconds
-Domain Reload Profiling: 712ms
-	BeginReloadAssembly (91ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (12ms)
-	LoadAllAssembliesAndSetupDomain (135ms)
-		LoadAssemblies (123ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (48ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (40ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (436ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (359ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (95ms)
-			ProcessInitializeOnLoadAttributes (231ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
-Refreshing native plugins compatible for Editor in 0.16 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1960 unused Assets / (255.2 KB). Loaded Objects now: 2555.
-Memory consumption went from 81.7 MB to 81.5 MB.
-Total: 5.182125 ms (FindLiveObjects: 0.139625 ms CreateObjectMapping: 0.057750 ms MarkObjects: 4.629875 ms  DeleteObjects: 0.354333 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Thread 0x16dd4f000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.273 seconds
-Refreshing native plugins compatible for Editor in 0.10 ms, found 1 plugins.
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.432 seconds
-Domain Reload Profiling: 706ms
-	BeginReloadAssembly (95ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (12ms)
-	LoadAllAssembliesAndSetupDomain (129ms)
-		LoadAssemblies (122ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (46ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (39ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (432ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (358ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (98ms)
-			ProcessInitializeOnLoadAttributes (227ms)
-			ProcessInitializeOnLoadMethodAttributes (30ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
-Refreshing native plugins compatible for Editor in 0.21 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1960 unused Assets / (142.2 KB). Loaded Objects now: 2556.
-Memory consumption went from 80.7 MB to 80.5 MB.
-Total: 5.130958 ms (FindLiveObjects: 0.152250 ms CreateObjectMapping: 0.056750 ms MarkObjects: 4.616334 ms  DeleteObjects: 0.305375 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x16dd4f000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.265 seconds
-Refreshing native plugins compatible for Editor in 0.09 ms, found 1 plugins.
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.430 seconds
-Domain Reload Profiling: 696ms
-	BeginReloadAssembly (94ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (12ms)
-	LoadAllAssembliesAndSetupDomain (121ms)
-		LoadAssemblies (111ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (48ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (39ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (431ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (357ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (100ms)
-			ProcessInitializeOnLoadAttributes (225ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
-Refreshing native plugins compatible for Editor in 0.15 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1960 unused Assets / (175.0 KB). Loaded Objects now: 2557.
-Memory consumption went from 80.7 MB to 80.5 MB.
-Total: 5.020625 ms (FindLiveObjects: 0.152125 ms CreateObjectMapping: 0.053250 ms MarkObjects: 4.514041 ms  DeleteObjects: 0.300750 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Thread 0x16dd4f000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.276 seconds
-Refreshing native plugins compatible for Editor in 0.12 ms, found 1 plugins.
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.437 seconds
-Domain Reload Profiling: 714ms
-	BeginReloadAssembly (94ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (12ms)
-	LoadAllAssembliesAndSetupDomain (134ms)
-		LoadAssemblies (125ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (46ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (39ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (437ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (363ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (100ms)
-			ProcessInitializeOnLoadAttributes (230ms)
-			ProcessInitializeOnLoadMethodAttributes (29ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
-Refreshing native plugins compatible for Editor in 0.17 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1960 unused Assets / (307.5 KB). Loaded Objects now: 2558.
-Memory consumption went from 80.7 MB to 80.4 MB.
-Total: 5.185917 ms (FindLiveObjects: 0.179500 ms CreateObjectMapping: 0.060708 ms MarkObjects: 4.608666 ms  DeleteObjects: 0.336833 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x16dd4f000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.282 seconds
-Refreshing native plugins compatible for Editor in 0.11 ms, found 1 plugins.
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.375 seconds
-Domain Reload Profiling: 658ms
-	BeginReloadAssembly (100ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (12ms)
-	LoadAllAssembliesAndSetupDomain (133ms)
-		LoadAssemblies (126ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (49ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (39ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (375ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (303ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (88ms)
-			ProcessInitializeOnLoadAttributes (185ms)
 			ProcessInitializeOnLoadMethodAttributes (25ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
-Refreshing native plugins compatible for Editor in 0.17 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1960 unused Assets / (507.6 KB). Loaded Objects now: 2559.
-Memory consumption went from 80.7 MB to 80.2 MB.
-Total: 4.660500 ms (FindLiveObjects: 0.132042 ms CreateObjectMapping: 0.061166 ms MarkObjects: 4.161000 ms  DeleteObjects: 0.305792 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x16dd4f000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.268 seconds
-Refreshing native plugins compatible for Editor in 0.09 ms, found 1 plugins.
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.439 seconds
-Domain Reload Profiling: 708ms
-	BeginReloadAssembly (92ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (12ms)
-	LoadAllAssembliesAndSetupDomain (125ms)
-		LoadAssemblies (115ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (47ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (39ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (440ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (366ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (101ms)
-			ProcessInitializeOnLoadAttributes (231ms)
-			ProcessInitializeOnLoadMethodAttributes (29ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
-Refreshing native plugins compatible for Editor in 0.16 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1960 unused Assets / (204.4 KB). Loaded Objects now: 2560.
-Memory consumption went from 80.7 MB to 80.5 MB.
-Total: 5.377917 ms (FindLiveObjects: 0.128334 ms CreateObjectMapping: 0.057916 ms MarkObjects: 4.816125 ms  DeleteObjects: 0.375000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Thread 0x16dd4f000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.282 seconds
-Refreshing native plugins compatible for Editor in 0.13 ms, found 1 plugins.
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.368 seconds
-Domain Reload Profiling: 651ms
-	BeginReloadAssembly (99ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (12ms)
-	LoadAllAssembliesAndSetupDomain (135ms)
-		LoadAssemblies (127ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (48ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (39ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (368ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (295ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (87ms)
-			ProcessInitializeOnLoadAttributes (181ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
-Refreshing native plugins compatible for Editor in 0.16 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1960 unused Assets / (492.3 KB). Loaded Objects now: 2561.
-Memory consumption went from 80.7 MB to 80.2 MB.
-Total: 4.704917 ms (FindLiveObjects: 0.130625 ms CreateObjectMapping: 0.057042 ms MarkObjects: 4.205958 ms  DeleteObjects: 0.310958 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Thread 0x16dd4f000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.266 seconds
-Refreshing native plugins compatible for Editor in 0.10 ms, found 1 plugins.
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.429 seconds
-Domain Reload Profiling: 696ms
-	BeginReloadAssembly (94ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (12ms)
-	LoadAllAssembliesAndSetupDomain (123ms)
-		LoadAssemblies (112ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (48ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (39ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (429ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (355ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (90ms)
-			ProcessInitializeOnLoadAttributes (233ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
-Refreshing native plugins compatible for Editor in 0.13 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1960 unused Assets / (191.3 KB). Loaded Objects now: 2562.
-Memory consumption went from 80.7 MB to 80.5 MB.
-Total: 5.164875 ms (FindLiveObjects: 0.135500 ms CreateObjectMapping: 0.056292 ms MarkObjects: 4.653791 ms  DeleteObjects: 0.318875 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Thread 0x16dd4f000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.279 seconds
-Refreshing native plugins compatible for Editor in 0.09 ms, found 1 plugins.
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.426 seconds
-Domain Reload Profiling: 706ms
-	BeginReloadAssembly (98ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (12ms)
-	LoadAllAssembliesAndSetupDomain (132ms)
-		LoadAssemblies (126ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (47ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (39ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (427ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (352ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (93ms)
-			ProcessInitializeOnLoadAttributes (227ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
-Refreshing native plugins compatible for Editor in 0.16 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1960 unused Assets / (110.2 KB). Loaded Objects now: 2563.
-Memory consumption went from 80.7 MB to 80.6 MB.
-Total: 5.384000 ms (FindLiveObjects: 0.208584 ms CreateObjectMapping: 0.055833 ms MarkObjects: 4.778333 ms  DeleteObjects: 0.340875 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Thread 0x16dd4f000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.278 seconds
-Refreshing native plugins compatible for Editor in 0.12 ms, found 1 plugins.
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.429 seconds
-Domain Reload Profiling: 707ms
-	BeginReloadAssembly (96ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (12ms)
-	LoadAllAssembliesAndSetupDomain (133ms)
-		LoadAssemblies (124ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (47ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (39ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (429ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (354ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (96ms)
-			ProcessInitializeOnLoadAttributes (226ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
-Refreshing native plugins compatible for Editor in 0.18 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1960 unused Assets / (315.6 KB). Loaded Objects now: 2564.
-Memory consumption went from 80.7 MB to 80.4 MB.
-Total: 5.297625 ms (FindLiveObjects: 0.139167 ms CreateObjectMapping: 0.055542 ms MarkObjects: 4.734625 ms  DeleteObjects: 0.368166 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Thread 0x16dd4f000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.273 seconds
-Refreshing native plugins compatible for Editor in 0.13 ms, found 1 plugins.
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.428 seconds
-Domain Reload Profiling: 702ms
-	BeginReloadAssembly (95ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (12ms)
-	LoadAllAssembliesAndSetupDomain (129ms)
-		LoadAssemblies (120ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (46ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (39ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (428ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (351ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (89ms)
-			ProcessInitializeOnLoadAttributes (228ms)
-			ProcessInitializeOnLoadMethodAttributes (29ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
-Refreshing native plugins compatible for Editor in 0.19 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1960 unused Assets / (191.4 KB). Loaded Objects now: 2565.
-Memory consumption went from 80.7 MB to 80.5 MB.
-Total: 5.316750 ms (FindLiveObjects: 0.132083 ms CreateObjectMapping: 0.058667 ms MarkObjects: 4.785166 ms  DeleteObjects: 0.339584 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x16dd4f000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.260 seconds
-Refreshing native plugins compatible for Editor in 0.09 ms, found 1 plugins.
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.435 seconds
-Domain Reload Profiling: 697ms
-	BeginReloadAssembly (93ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (11ms)
-	LoadAllAssembliesAndSetupDomain (119ms)
-		LoadAssemblies (110ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (46ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (39ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (436ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (360ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (92ms)
-			ProcessInitializeOnLoadAttributes (235ms)
-			ProcessInitializeOnLoadMethodAttributes (30ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
-Refreshing native plugins compatible for Editor in 0.16 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1960 unused Assets / (180.3 KB). Loaded Objects now: 2566.
-Memory consumption went from 80.7 MB to 80.5 MB.
-Total: 5.215458 ms (FindLiveObjects: 0.165042 ms CreateObjectMapping: 0.054792 ms MarkObjects: 4.661458 ms  DeleteObjects: 0.333041 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Thread 0x16dd4f000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.280 seconds
-Refreshing native plugins compatible for Editor in 0.12 ms, found 1 plugins.
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.391 seconds
-Domain Reload Profiling: 672ms
-	BeginReloadAssembly (97ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (12ms)
-	LoadAllAssembliesAndSetupDomain (135ms)
-		LoadAssemblies (126ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (49ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (39ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (391ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (316ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (90ms)
-			ProcessInitializeOnLoadAttributes (196ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
 Refreshing native plugins compatible for Editor in 0.14 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1960 unused Assets / (80.8 KB). Loaded Objects now: 2567.
-Memory consumption went from 80.7 MB to 80.6 MB.
-Total: 6.029792 ms (FindLiveObjects: 0.110375 ms CreateObjectMapping: 0.054625 ms MarkObjects: 5.586416 ms  DeleteObjects: 0.277583 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x16dd4f000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.261 seconds
-Refreshing native plugins compatible for Editor in 0.11 ms, found 1 plugins.
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.434 seconds
-Domain Reload Profiling: 696ms
-	BeginReloadAssembly (93ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (12ms)
-	LoadAllAssembliesAndSetupDomain (119ms)
-		LoadAssemblies (109ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (47ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (39ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (434ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (358ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (94ms)
-			ProcessInitializeOnLoadAttributes (231ms)
-			ProcessInitializeOnLoadMethodAttributes (29ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
-Refreshing native plugins compatible for Editor in 0.17 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1960 unused Assets / (151.0 KB). Loaded Objects now: 2568.
-Memory consumption went from 80.7 MB to 80.6 MB.
-Total: 5.200584 ms (FindLiveObjects: 0.156625 ms CreateObjectMapping: 0.076125 ms MarkObjects: 4.608250 ms  DeleteObjects: 0.359000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x16dd4f000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.272 seconds
-Refreshing native plugins compatible for Editor in 0.11 ms, found 1 plugins.
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.439 seconds
-Domain Reload Profiling: 712ms
-	BeginReloadAssembly (99ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (12ms)
-	LoadAllAssembliesAndSetupDomain (124ms)
-		LoadAssemblies (114ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (49ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (40ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (439ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (364ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (91ms)
-			ProcessInitializeOnLoadAttributes (240ms)
-			ProcessInitializeOnLoadMethodAttributes (29ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
-Refreshing native plugins compatible for Editor in 0.14 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1960 unused Assets / (251.1 KB). Loaded Objects now: 2569.
-Memory consumption went from 80.7 MB to 80.5 MB.
-Total: 4.992875 ms (FindLiveObjects: 0.120041 ms CreateObjectMapping: 0.055625 ms MarkObjects: 4.506417 ms  DeleteObjects: 0.310250 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x16dd4f000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.265 seconds
-Refreshing native plugins compatible for Editor in 0.10 ms, found 1 plugins.
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.394 seconds
-Domain Reload Profiling: 660ms
-	BeginReloadAssembly (92ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (12ms)
-	LoadAllAssembliesAndSetupDomain (124ms)
-		LoadAssemblies (114ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (47ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (39ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (394ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (321ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (85ms)
-			ProcessInitializeOnLoadAttributes (204ms)
-			ProcessInitializeOnLoadMethodAttributes (27ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
-Refreshing native plugins compatible for Editor in 0.15 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1960 unused Assets / (427.7 KB). Loaded Objects now: 2570.
-Memory consumption went from 80.7 MB to 80.3 MB.
-Total: 4.777917 ms (FindLiveObjects: 0.123125 ms CreateObjectMapping: 0.054708 ms MarkObjects: 4.296042 ms  DeleteObjects: 0.303417 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Thread 0x16dd4f000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.279 seconds
-Refreshing native plugins compatible for Editor in 0.11 ms, found 1 plugins.
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.405 seconds
-Domain Reload Profiling: 684ms
-	BeginReloadAssembly (97ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (12ms)
-	LoadAllAssembliesAndSetupDomain (134ms)
-		LoadAssemblies (125ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (48ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (39ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (405ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (330ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (88ms)
-			ProcessInitializeOnLoadAttributes (212ms)
-			ProcessInitializeOnLoadMethodAttributes (27ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (3ms)
-Refreshing native plugins compatible for Editor in 0.16 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1960 unused Assets / (196.2 KB). Loaded Objects now: 2571.
-Memory consumption went from 80.7 MB to 80.5 MB.
-Total: 5.135541 ms (FindLiveObjects: 0.138959 ms CreateObjectMapping: 0.058791 ms MarkObjects: 4.592209 ms  DeleteObjects: 0.345125 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x16dd4f000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.269 seconds
-Refreshing native plugins compatible for Editor in 0.11 ms, found 1 plugins.
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.404 seconds
-Domain Reload Profiling: 674ms
-	BeginReloadAssembly (95ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (12ms)
-	LoadAllAssembliesAndSetupDomain (126ms)
-		LoadAssemblies (116ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (48ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (40ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (404ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (329ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (90ms)
-			ProcessInitializeOnLoadAttributes (207ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
-Refreshing native plugins compatible for Editor in 0.14 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1960 unused Assets / (409.3 KB). Loaded Objects now: 2572.
-Memory consumption went from 80.7 MB to 80.3 MB.
-Total: 5.103250 ms (FindLiveObjects: 0.129625 ms CreateObjectMapping: 0.053167 ms MarkObjects: 4.625375 ms  DeleteObjects: 0.294750 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Thread 0x16dd4f000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.276 seconds
-Refreshing native plugins compatible for Editor in 0.11 ms, found 1 plugins.
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.411 seconds
-Domain Reload Profiling: 688ms
-	BeginReloadAssembly (97ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (12ms)
-	LoadAllAssembliesAndSetupDomain (130ms)
-		LoadAssemblies (122ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (47ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (39ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (411ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (338ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (87ms)
-			ProcessInitializeOnLoadAttributes (218ms)
-			ProcessInitializeOnLoadMethodAttributes (29ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
-Refreshing native plugins compatible for Editor in 0.16 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1960 unused Assets / (132.7 KB). Loaded Objects now: 2573.
-Memory consumption went from 80.7 MB to 80.6 MB.
-Total: 5.206500 ms (FindLiveObjects: 0.129125 ms CreateObjectMapping: 0.052417 ms MarkObjects: 4.722042 ms  DeleteObjects: 0.302584 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 3014.352960 seconds.
-  path: Assets/Sprites/Dust_50x50.png
-  artifactKey: Guid(90f694d9218c94b0d9b69bb6d1a8d88f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Sprites/Dust_50x50.png using Guid(90f694d9218c94b0d9b69bb6d1a8d88f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'de43b58573fd91cbfb1209ff78b34c90') in 0.079989917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+Unloading 1962 unused Assets / (0.6 MB). Loaded Objects now: 2551.
+Memory consumption went from 75.1 MB to 74.5 MB.
+Total: 5.084000 ms (FindLiveObjects: 0.235125 ms CreateObjectMapping: 0.056958 ms MarkObjects: 4.434000 ms  DeleteObjects: 0.357334 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 86.492294 seconds.
-  path: Assets/Sprites/Dust_50x50_18.controller
-  artifactKey: Guid(fd4d59aaee20349a7a0fae967a3a6027) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Sprites/Dust_50x50_18.controller using Guid(fd4d59aaee20349a7a0fae967a3a6027) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '92e64b5d8254f4c842b3f29958dba569') in 0.003132709 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 756631.308562 seconds.
+  path: Assets/Prefabs/Oponente.prefab
+  artifactKey: Guid(0fd69a420ec5d4ea78b550682778b623) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Oponente.prefab using Guid(0fd69a420ec5d4ea78b550682778b623) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ab4f7228736315a37a354116bddfea1d') in 0.073549583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 48
 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Thread 0x16dd4f000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.282 seconds
-Refreshing native plugins compatible for Editor in 0.15 ms, found 1 plugins.
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.427 seconds
-Domain Reload Profiling: 710ms
-	BeginReloadAssembly (99ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (12ms)
-	LoadAllAssembliesAndSetupDomain (134ms)
-		LoadAssemblies (129ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (47ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (39ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (427ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (353ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (86ms)
-			ProcessInitializeOnLoadAttributes (234ms)
-			ProcessInitializeOnLoadMethodAttributes (29ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
-Refreshing native plugins compatible for Editor in 0.14 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1960 unused Assets / (330.4 KB). Loaded Objects now: 2574.
-Memory consumption went from 80.7 MB to 80.4 MB.
-Total: 4.721667 ms (FindLiveObjects: 0.120125 ms CreateObjectMapping: 0.056125 ms MarkObjects: 4.248417 ms  DeleteObjects: 0.296333 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 133.198945 seconds.
-  path: Assets/Prefabs/Arma Pequena.prefab
-  artifactKey: Guid(e599504d469ba4dc990556d9f52f25b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Arma Pequena.prefab using Guid(e599504d469ba4dc990556d9f52f25b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12f69494748a910fcf1fe196b6434fc5') in 0.052272959 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Thread 0x16dd4f000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.285 seconds
-Refreshing native plugins compatible for Editor in 0.11 ms, found 1 plugins.
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.422 seconds
-Domain Reload Profiling: 707ms
-	BeginReloadAssembly (101ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (13ms)
-	LoadAllAssembliesAndSetupDomain (134ms)
-		LoadAssemblies (127ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (47ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (39ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (422ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (347ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (94ms)
-			ProcessInitializeOnLoadAttributes (222ms)
-			ProcessInitializeOnLoadMethodAttributes (27ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
-Refreshing native plugins compatible for Editor in 0.14 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1960 unused Assets / (336.5 KB). Loaded Objects now: 2582.
-Memory consumption went from 81.1 MB to 80.8 MB.
-Total: 4.887125 ms (FindLiveObjects: 0.111375 ms CreateObjectMapping: 0.051667 ms MarkObjects: 4.376500 ms  DeleteObjects: 0.347250 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 424.542295 seconds.
-  path: Assets/Prefabs/Poeira Prefab.prefab
-  artifactKey: Guid(2a21428a0eb214386a38ee1087ba9474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Poeira Prefab.prefab using Guid(2a21428a0eb214386a38ee1087ba9474) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6371d100cbac3d8c34c47ddf078fa16d') in 0.042384958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Thread 0x16dd4f000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.264 seconds
-Refreshing native plugins compatible for Editor in 0.10 ms, found 1 plugins.
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.404 seconds
-Domain Reload Profiling: 670ms
-	BeginReloadAssembly (94ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (12ms)
-	LoadAllAssembliesAndSetupDomain (121ms)
-		LoadAssemblies (113ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (46ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (38ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (405ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (330ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (100ms)
-			ProcessInitializeOnLoadAttributes (196ms)
-			ProcessInitializeOnLoadMethodAttributes (29ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
-Refreshing native plugins compatible for Editor in 0.14 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1960 unused Assets / (325.6 KB). Loaded Objects now: 2583.
-Memory consumption went from 81.1 MB to 80.7 MB.
-Total: 4.779708 ms (FindLiveObjects: 0.109417 ms CreateObjectMapping: 0.050500 ms MarkObjects: 4.266958 ms  DeleteObjects: 0.352334 ms)
-
-Prepare: number of updated asset objects reloaded= 0
