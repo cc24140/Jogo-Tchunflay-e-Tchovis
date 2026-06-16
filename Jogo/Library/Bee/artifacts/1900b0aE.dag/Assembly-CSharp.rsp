@@ -420,6 +420,7 @@
 "Assets/Scripts/Arma.cs"
 "Assets/Scripts/Bala.cs"
 "Assets/Scripts/ChangeColor.cs"
+"Assets/Scripts/ControleJogador.cs"
 "Assets/Scripts/DadosDoJogo.cs"
 "Assets/Scripts/FazAndar.cs"
 "Assets/Scripts/GerenciadorLuta.cs"

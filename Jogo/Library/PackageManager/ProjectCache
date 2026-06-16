@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639169988478168869
-    m_Hash: 481435985
+      ticks: 639172188543624942
+    m_Hash: 3102328946
   m_LockFileStatus:
     m_FilePath: C:/Users/USER/Documents/GitHub/Jogo-Tchunflay-e-Tchovis/Jogo/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639169988478236541
-    m_Hash: 3290524601
+      ticks: 639172189074929194
+    m_Hash: 507204822
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -201,12 +201,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.ai.navigation@2.0.9
+- packageId: com.unity.ai.navigation@2.0.11
   testable: 0
   isDirectDependency: 1
-  version: 2.0.9
+  version: 2.0.11
   source: 1
-  resolvedPath: C:\Users\USER\Documents\GitHub\Jogo-Tchunflay-e-Tchovis\Jogo\Library\PackageCache\com.unity.ai.navigation@5218e4bf7edc
+  resolvedPath: C:\Users\USER\Documents\GitHub\Jogo-Tchunflay-e-Tchovis\Jogo\Library\PackageCache\com.unity.ai.navigation@78534c21b27d
   assetPath: Packages/com.unity.ai.navigation
   name: com.unity.ai.navigation
   displayName: AI Navigation
@@ -297,13 +297,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638919725134710000
+  datePublishedTicks: 639071871875160000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ai.navigation@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ai.navigation.git
-    revision: 91b1bd9119720d8e48b9f9de9ad18da1e8c1088e
+    revision: b6751ff1ceb9a01f5b469d0aec8b249581bb7725
     path: 
   unityLifecycle:
     version: 2.0.9
@@ -317,21 +317,11 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Added\n* New sample scene **9_agent_cornering_control**
-    to demonstrate controlling an agent''s velocity in order to better navigate tight
-    corners. ([UUM-59747](https://issuetracker.unity3d.com/product/unity/issues/guid/UUM-59747))\n\n###
-    Fixed\n* Fixed samples not correctly configuring navigation agent types when
-    imported into a project.\n* Foldouts in **AI Navigation** overlay collapse when
-    toggling settings. ([NAVB-144](https://issuetracker.unity3d.com/product/unity/issues/guid/NAVB-144))\n*
-    Fixed poor performance when enabling/disabling increasing numbers of NavMeshModifiers.
-    ([NAVB-96](https://issuetracker.unity3d.com/product/unity/issues/guid/NAVB-96))\n*
-    A small white square was displayed in the scene on top of the gizmo icons for
-    NavMesh Link, NavMesh Modifier Volume and NavMesh Surface. ([NAVB-154](https://issuetracker.unity3d.com/product/unity/issues/guid/NAVB-154))\n*
-    **Navigation Updater** no longer attempts to process scenes and prefabs from
-    the read-only **Packages** folder. ([NAVB-146](https://issuetracker.unity3d.com/product/unity/issues/guid/NAVB-146))"}'
+  upmReserved: '{"changelog":"### Fixed\n* Small correction in the UI definition
+    of the Navigation Updater window."}'
   assetStore:
     productId: 
-  fingerprint: 5218e4bf7edc04fcad4ed3836c1c41aef334b996
+  fingerprint: 78534c21b27d2c95f8220f5db8dce95627a32911
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.9
@@ -342,12 +332,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.collab-proxy@2.10.2
+- packageId: com.unity.collab-proxy@2.11.4
   testable: 0
   isDirectDependency: 1
-  version: 2.10.2
+  version: 2.11.4
   source: 1
-  resolvedPath: C:\Users\USER\Documents\GitHub\Jogo-Tchunflay-e-Tchovis\Jogo\Library\PackageCache\com.unity.collab-proxy@3351acaba9c9
+  resolvedPath: C:\Users\USER\Documents\GitHub\Jogo-Tchunflay-e-Tchovis\Jogo\Library\PackageCache\com.unity.collab-proxy@a5329f833fa8
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Unity Version Control
@@ -493,13 +483,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638981091640640000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.10/manual/index.html
+  datePublishedTicks: 639076172810380000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.11/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: 53b710e518c9aaa47eeb059db533c0588530450f
+    revision: 164a710206077e1184a134f18801dae560fdf28a
     path: 
   unityLifecycle:
     version: 2.10.2
@@ -513,14 +503,11 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n\n- Fixed the Toolbar button icon that was
-    not visible for uncontrolled projects for Editor older than Unity 6.3.\n- Fixed
-    the Pending changes view that was refreshed on window activation for no reason.\n-
-    Fixed Library folder that was sometimes wrongly added to source control on a
-    new project created from the Hub."}'
+  upmReserved: '{"changelog":"### Fixed\n\n- Fixed deprecated instanceID API usages
+    for Unity 6.5."}'
   assetStore:
     productId: 
-  fingerprint: 3351acaba9c9f7fc41d4b2404fc11c55d01ab0ad
+  fingerprint: a5329f833fa805a96ac8b0a1eb09dc64c076b032
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.10.2
@@ -611,12 +598,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.ide.rider@3.0.38
+- packageId: com.unity.ide.rider@3.0.39
   testable: 0
   isDirectDependency: 1
-  version: 3.0.38
+  version: 3.0.39
   source: 1
-  resolvedPath: C:\Users\USER\Documents\GitHub\Jogo-Tchunflay-e-Tchovis\Jogo\Library\PackageCache\com.unity.ide.rider@1f60b3138684
+  resolvedPath: C:\Users\USER\Documents\GitHub\Jogo-Tchunflay-e-Tchovis\Jogo\Library\PackageCache\com.unity.ide.rider@4504839d03f7
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -711,13 +698,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638938045127600000
+  datePublishedTicks: 639045875071620000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: 8a49d81ce92f334a07e3b71a8847b2f60dc12287
+    revision: 4da98b83c4f1de974829959526a470c26a8fa9f4
     path: 
   unityLifecycle:
     version: 3.0.38
@@ -731,11 +718,11 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"- fix a regression, introduced in 3.0.37. New files
-    are not added in the project."}'
+  upmReserved: '{"changelog":"- fix the indent of the LinkButton\n- fix project generation
+    to avoid attempts to restore NuGet packages (with some of the MSBuild versions)"}'
   assetStore:
     productId: 
-  fingerprint: 1f60b3138684c97af67aa8d911b1632ba916d29d
+  fingerprint: 4504839d03f7a5a4495357084a0ffd6e439892cf
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 3.0.38
@@ -746,12 +733,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.ide.visualstudio@2.0.25
+- packageId: com.unity.ide.visualstudio@2.0.27
   testable: 0
   isDirectDependency: 1
-  version: 2.0.25
+  version: 2.0.27
   source: 1
-  resolvedPath: C:\Users\USER\Documents\GitHub\Jogo-Tchunflay-e-Tchovis\Jogo\Library\PackageCache\com.unity.ide.visualstudio@74aa435fc4bb
+  resolvedPath: C:\Users\USER\Documents\GitHub\Jogo-Tchunflay-e-Tchovis\Jogo\Library\PackageCache\com.unity.ide.visualstudio@dc1ddd4f09b6
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -803,7 +790,7 @@ m_ResolvedPackages:
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
-    version: 1.1.31
+    version: 1.1.33
   resolvedDependencies:
   - name: com.unity.test-framework
     version: 1.6.0
@@ -829,13 +816,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638954434425230000
+  datePublishedTicks: 639057939089480000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: 3765e21a94ea1100e4b377121dbf771c3cbd874a
+    revision: 4b2a3082a6e79faf658e8d766c820083b736eed6
     path: 
   unityLifecycle:
     version: 2.0.25
@@ -849,11 +836,14 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"Internal:\n\n- Fixes for release validation and release
-    process"}'
+  upmReserved: '{"changelog":"Integration:\n\n- Fix Visual Studio Integration to
+    properly wait for the solution to be opened.\n\nProject generation:\n\n- Disable
+    Workspace-based development feature in `settings.json`.\n- Ensure that we only
+    have one `sln` or `slnx` file at a time.\n- Properly handle filenames with special
+    characters in `link` tags."}'
   assetStore:
     productId: 
-  fingerprint: 74aa435fc4bb41890f400130ec80f271d1292fd4
+  fingerprint: dc1ddd4f09b68a99b5dc00185f3b7551294e28a7
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.25
@@ -1050,12 +1040,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.timeline@1.8.9
+- packageId: com.unity.timeline@1.8.11
   testable: 0
   isDirectDependency: 1
-  version: 1.8.9
+  version: 1.8.11
   source: 1
-  resolvedPath: C:\Users\USER\Documents\GitHub\Jogo-Tchunflay-e-Tchovis\Jogo\Library\PackageCache\com.unity.timeline@6b9e48457ddb
+  resolvedPath: C:\Users\USER\Documents\GitHub\Jogo-Tchunflay-e-Tchovis\Jogo\Library\PackageCache\com.unity.timeline@bfd27f8016ff
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1208,13 +1198,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638900049118440000
+  datePublishedTicks: 639076501551120000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: 5d309c1b02350ecb7093a4001d66afb1a238fc50
+    revision: cdac322c9875133dd1579842f73adb7f463c6d0b
     path: 
   unityLifecycle:
     version: 1.8.9
@@ -1228,26 +1218,16 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Added\n\n- Added profiler markers for Timeline
-    graph creation and evaluation. (ATL-2108)\n\n### Fixed\n\n- Fix custom implementation
-    of AnimationTrack not being able to record and not having access to AnimationTrack
-    actions through the context menu. (TB-333)\n- Fix an issue where custom Tracks
-    and Clips Editors code is marked as unused in Rider even when they are associated
-    with a specific Clip or Track Asset. (TB-334)\n- Fix and issue where a clip Inspector
-    with an embedded playable asset inspector can leak when selection changes with
-    2 inspector windows opened. (TB-324)\n- Fix Editing Track label while Track is
-    selected makes text lose the white color. (TB-336)\n- Maximizing and Restoring
-    the Timeline Window will now keep editing the previous Timeline (TB-289)\n- Added
-    a warning when trying to add a custom track whose class name would not match
-    the file name. (TB-329)\n- Fixed an issue where timeline duration incorrectly
-    included tracks muted via hierarchy. (TB-326)"}'
+  upmReserved: '{"changelog":"### Fixed\n\n- Fix performance regression in Custom
+    Clip PlayableAsset Inspector where animated parameters caused Timeline Window
+    to refresh when scrubbing or playing the Timeline (UUM-133569)"}'
   assetStore:
     productId: 
-  fingerprint: 6b9e48457ddb4f64813d77fd77efc79a8f3102ae
+  fingerprint: bfd27f8016ffda6a22579ffc468432a96b2cc5b6
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.8.9
-    minimumUnityVersion: 2021.3
+    minimumUnityVersion: 2022.3
   compliance:
     status: 0
     violation:

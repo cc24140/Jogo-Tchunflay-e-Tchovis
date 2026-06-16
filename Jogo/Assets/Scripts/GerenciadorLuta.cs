@@ -5,10 +5,12 @@ public class GerenciadorLuta : MonoBehaviour
     [Header("Lutadores do Jogador 1 (Esquerda)")]
     public GameObject bonecoCiborgueJ1;
     public GameObject bonecoNinjaJ1;
+    public GameObject bonecoMariJ1;
 
     [Header("Lutadores do Jogador 2 (Direita)")]
     public GameObject bonecoCavaleiraJ2;
     public GameObject bonecoMagoJ2;
+    public GameObject bonecoMariJ2;
 
     void Start()
     {
@@ -23,6 +25,9 @@ public class GerenciadorLuta : MonoBehaviour
         {
             bonecoNinjaJ1.SetActive(true); // Liga o Ninja!
         }
+        else if(escolhidoJ1 == "Mari"){
+            bonecoMariJ1 .SetActive(true);
+        }
 
         // 2. CHECANDO O JOGADOR 2
         string escolhidoJ2 = DadosDoJogo.PersonagemP2;
@@ -34,6 +39,10 @@ public class GerenciadorLuta : MonoBehaviour
         else if (escolhidoJ2 == "Tchunflay")
         {
             bonecoMagoJ2.SetActive(true); // Liga o Mago!
+        }
+        else if (escolhidoJ1 == "Mari")
+        {
+            bonecoMariJ2.SetActive(true);
         }
     }
 }

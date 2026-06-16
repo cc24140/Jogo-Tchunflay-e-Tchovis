@@ -21,6 +21,21 @@ public class SeletorPersonagem : MonoBehaviour
 
     private bool p1Escolhido = false;
     private bool p2Escolhido = false;
+    void Start()
+    {
+        // Força o jogo a começar sabendo que o P1 está com o boneco de cima selecionado
+        // TROQUE PELO NOME EXATO DO SEU PRIMEIRO PERSONAGEM (em letra minúscula se usou o código anterior)
+        DadosDoJogo.PersonagemP1 = "Mari";
+        p1Escolhido = true;
+
+        // Força o jogo a começar sabendo que o P2 está com o boneco de cima selecionado
+        // TROQUE PELO NOME EXATO DO SEU SEGUNDO PERSONAGEM
+        DadosDoJogo.PersonagemP2 = "Mari";
+        p2Escolhido = true;
+
+        // Como ambos já começam escolhidos por padrão, libera o botão Confirmar direto!
+        botaoConfirmar.gameObject.SetActive(true);
+    }
 
     // --- FUNÇÕES DO JOGADOR 1 (ESQUERDA) ---
 
