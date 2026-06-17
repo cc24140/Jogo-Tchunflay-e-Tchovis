@@ -1,41 +1,116 @@
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class GerenciadorLuta : MonoBehaviour
 {
+    public static GerenciadorLuta Instancia;
+
     [Header("Lutadores do Jogador 1 (Esquerda)")]
-    
     public GameObject bonecoTchunflayJ1;
     public GameObject bonecoTchovisJ1;
 
     [Header("Lutadores do Jogador 2 (Direita)")]
-  
     public GameObject bonecoTchunflayJ2;
     public GameObject bonecoTchovisJ2;
 
+    [Header("Interface (UI)")]
+    public Slider barraVidaJ1;
+    public Slider barraVidaJ2;
+    public TextMeshProUGUI textoTempo;
+    public TextMeshProUGUI textoVitoria;
+
+    [Header("Configurações da Luta")]
+    public float tempoMaximo = 90f;
+
+    // as privadas da classe
+    private float tempoAtual;
+    private bool lutaAcabou = false;
+
+
+    void Awake()
+    {
+        Instancia = this;
+    }
+
     void Start()
     {
-        // 1. CHECANDO O JOGADOR 1
-        string escolhidoJ1 = DadosDoJogo.PersonagemP1;
+        // desativa os bonecos
+        bonecoTchunflayJ1.SetActive(false);
+        bonecoTchovisJ1.SetActive(false);
+        bonecoTchunflayJ2.SetActive(false);
+        bonecoTchovisJ2.SetActive(false);
 
+        // ativa apenas o personagem escolhido de cada jogador
+        string escolhidoJ1 = DadosDoJogo.PersonagemJ1;
         if (escolhidoJ1 == "Tchunflay")
-        {
             bonecoTchunflayJ1.SetActive(true);
-        }
-        else if(escolhidoJ1 == "Tchovis")
-        {
-            bonecoTchovisJ1.SetActive(true);
-        }
-
-        // 2. CHECANDO O JOGADOR 2
-        string escolhidoJ2 = DadosDoJogo.PersonagemP2;
-
-        if (escolhidoJ2 == "Tchunflay")
-        {
-            bonecoTchunflayJ2.SetActive(true);
-        }
         else if (escolhidoJ1 == "Tchovis")
-        {
+            bonecoTchovisJ1.SetActive(true);
+
+        string escolhidoJ2 = DadosDoJogo.PersonagemJ2;
+        if (escolhidoJ2 == "Tchunflay")
+            bonecoTchunflayJ2.SetActive(true);
+        else if (escolhidoJ2 == "Tchovis")
             bonecoTchovisJ2.SetActive(true);
+
+        // força as barras de vida a começarem cheias
+        PrepararBarraVida(barraVidaJ1);
+        PrepararBarraVida(barraVidaJ2);
+
+        // configura o relógio
+        Time.timeScale = 1f;
+        tempoAtual = tempoMaximo;
+        textoVitoria.gameObject.SetActive(false);
+    }
+
+    void Update()
+    {
+        if (lutaAcabou) return;
+
+        tempoAtual -= Time.deltaTime;
+        textoTempo.text = Mathf.Ceil(tempoAtual).ToString();
+
+        if (tempoAtual <= 0)
+        {
+            tempoAtual = 0;
+            AcabouOTempo();
         }
+    }
+
+    void PrepararBarraVida(Slider barra)
+    {
+        if (barra == null) return;
+
+        barra.minValue = 0f;
+        barra.maxValue = 1f;
+        barra.value = 1f;
+        barra.normalizedValue = 1f;
+    }
+
+    public void AtualizarVida(bool ehJogador1, float vidaAtual, float vidaMaxima)
+    {
+        if (ehJogador1)
+            barraVidaJ1.value = vidaAtual / vidaMaxima;
+        else
+            barraVidaJ2.value = vidaAtual / vidaMaxima;
+    }
+
+    public void FinalizarLuta(string mensagemVitoria)
+    {
+        lutaAcabou = true;
+        textoVitoria.text = mensagemVitoria;
+        textoVitoria.gameObject.SetActive(true);
+        Time.timeScale = 0f;
+    }
+
+    void AcabouOTempo()
+    {
+        if (barraVidaJ1.value > barraVidaJ2.value)
+            FinalizarLuta("TEMPO ESGOTADO!\nJOGADOR 1 VENCEU!");
+        else if (barraVidaJ2.value > barraVidaJ1.value)
+            FinalizarLuta("TEMPO ESGOTADO!\nJOGADOR 2 VENCEU!");
+        else
+            FinalizarLuta("TEMPO ESGOTADO!\nEMPATE!");
     }
 }

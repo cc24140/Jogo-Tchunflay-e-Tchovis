@@ -12,88 +12,78 @@ public class SeletorPersonagem : MonoBehaviour
     public Button botaoConfirmar;
 
     [Header("Botoes do Jogador 1 (Esquerda)")]
-    public RectTransform botaoPerso1;
-    public RectTransform botaoPerso3;
+    public RectTransform botaoTchovisJ1;
+    public RectTransform botaoTchunflayJ1;
 
     [Header("Botoes do Jogador 2 (Direita)")]
-    public RectTransform botaoPerso2;
-    public RectTransform botaoPerso4;
+    public RectTransform botaoTchovisJ2;
+    public RectTransform botaoTchunflayJ2;
 
-    private bool p1Escolhido = false;
-    private bool p2Escolhido = false;
+    // as privadas da classe
+    private bool J1Escolhido = false;
+    private bool J2Escolhido = false;
+
 
     void Start()
     {
-        // Força o jogo a começar sabendo que o P1 está com o boneco de cima selecionado
-        // TROQUE PELO NOME EXATO DO SEU PRIMEIRO PERSONAGEM (em letra minúscula se usou o código anterior)
-        DadosDoJogo.PersonagemP1 = "Tchovis";
-        p1Escolhido = true;
+        // força o jogo a começar sabendo que o P1 está com o boneco de cima selecionado
+        DadosDoJogo.PersonagemJ1 = "Tchovis";
+        J1Escolhido = true;
 
-        // Força o jogo a começar sabendo que o P2 está com o boneco de cima selecionado
-        // TROQUE PELO NOME EXATO DO SEU SEGUNDO PERSONAGEM
-        DadosDoJogo.PersonagemP2 = "Tchovis";
-        p2Escolhido = true;
+        // força o jogo a começar sabendo que o P2 está com o boneco de cima selecionado
+        DadosDoJogo.PersonagemJ2 = "Tchovis";
+        J2Escolhido = true;
 
-        // Como ambos já começam escolhidos por padrão, libera o botão Confirmar direto!
         botaoConfirmar.gameObject.SetActive(true);
     }
 
-    // --- FUNÇÕES DO JOGADOR 1 (ESQUERDA) ---
-
-    public void SelecionarP1_Cima(string nomeDoBoneco)
+    public void SelecionarJ1_Cima(string nomePersonagem)
     {
-        DadosDoJogo.PersonagemP1 = nomeDoBoneco;
-        p1Escolhido = true; // J1 escolheu alguém!
+        DadosDoJogo.PersonagemJ1 = nomePersonagem;
+        J1Escolhido = true;
 
         bordaJ1.gameObject.SetActive(true);
-        bordaJ1.transform.position = botaoPerso1.position;
+        bordaJ1.transform.position = botaoTchovisJ1.position;
 
-        Debug.Log("P1 mudou para Cima: " + nomeDoBoneco);
         VerificarSelecao();
     }
 
-    public void SelecionarP1_Baixo(string nomeDoBoneco)
+    public void SelecionarJ1_Baixo(string nomePersonagem)
     {
-        DadosDoJogo.PersonagemP1 = nomeDoBoneco;
-        p1Escolhido = true; // J1 escolheu alguém!
+        DadosDoJogo.PersonagemJ1 = nomePersonagem;
+        J1Escolhido = true;
 
         bordaJ1.gameObject.SetActive(true);
-        bordaJ1.transform.position = botaoPerso3.position;
+        bordaJ1.transform.position = botaoTchunflayJ1.position;
 
-        Debug.Log("P1 mudou para Baixo: " + nomeDoBoneco);
         VerificarSelecao();
     }
 
-    // --- FUNÇÕES DO JOGADOR 2 (DIREITA) ---
-
-    public void SelecionarP2_Cima(string nomeDoBoneco)
+    public void SelecionarJ2_Cima(string nomePersonagem)
     {
-        DadosDoJogo.PersonagemP2 = nomeDoBoneco;
-        p2Escolhido = true; // J2 escolheu alguém!
+        DadosDoJogo.PersonagemJ2 = nomePersonagem;
+        J2Escolhido = true;
 
         bordaJ2.gameObject.SetActive(true);
-        bordaJ2.transform.position = botaoPerso2.position;
+        bordaJ2.transform.position = botaoTchovisJ2.position;
 
-        Debug.Log("P2 mudou para Cima: " + nomeDoBoneco);
         VerificarSelecao();
     }
 
-    public void SelecionarP2_Baixo(string nomeDoBoneco)
+    public void SelecionarJ2_Baixo(string nomePersonagem)
     {
-        DadosDoJogo.PersonagemP2 = nomeDoBoneco;
-        p2Escolhido = true; // J2 escolheu alguém!
+        DadosDoJogo.PersonagemJ2 = nomePersonagem;
+        J2Escolhido = true;
 
         bordaJ2.gameObject.SetActive(true);
-        bordaJ2.transform.position = botaoPerso4.position;
+        bordaJ2.transform.position = botaoTchunflayJ2.position;
 
-        Debug.Log("P2 mudou para Baixo: " + nomeDoBoneco);
         VerificarSelecao();
     }
 
     void VerificarSelecao()
     {
-        // O botão de confirmar só aparece se AMBOS tiverem pelo menos um boneco selecionado
-        if (p1Escolhido && p2Escolhido)
+        if (J1Escolhido && J2Escolhido)
         {
             botaoConfirmar.gameObject.SetActive(true);
         }
@@ -101,7 +91,6 @@ public class SeletorPersonagem : MonoBehaviour
 
     public void ConfirmarEscolha()
     {
-        // Lembra de trocar pelo nome EXATO da sua cena de luta!
         SceneManager.LoadScene("CenaLuta");
     }
 }

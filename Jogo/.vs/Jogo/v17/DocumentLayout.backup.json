@@ -1,17 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\USER\\Documents\\GitHub\\Jogo-Tchunflay-e-Tchovis\\Jogo\\",
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\Desktop\\Jogo-Tchunflay-e-Tchovis\\Jogo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Documents\\GitHub\\Jogo-Tchunflay-e-Tchovis\\Jogo\\Assets\\Scripts\\GerenciadorLuta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\Desktop\\Jogo-Tchunflay-e-Tchovis\\Jogo\\Assets\\Scripts\\ControleJogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ControleJogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\Desktop\\Jogo-Tchunflay-e-Tchovis\\Jogo\\Assets\\Scripts\\LoadScene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\LoadScene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\Desktop\\Jogo-Tchunflay-e-Tchovis\\Jogo\\Assets\\Scripts\\GerenciadorLuta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\GerenciadorLuta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Documents\\GitHub\\Jogo-Tchunflay-e-Tchovis\\Jogo\\Assets\\Scripts\\SeletorPersonagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\Desktop\\Jogo-Tchunflay-e-Tchovis\\Jogo\\Assets\\Scripts\\SeletorPersonagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\SeletorPersonagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Documents\\GitHub\\Jogo-Tchunflay-e-Tchovis\\Jogo\\Assets\\Scripts\\DadosDoJogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\Desktop\\Jogo-Tchunflay-e-Tchovis\\Jogo\\Assets\\Scripts\\DadosDoJogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\DadosDoJogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -27,40 +35,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ControleJogador.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Jogo-Tchunflay-e-Tchovis\\Jogo\\Assets\\Scripts\\ControleJogador.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ControleJogador.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Jogo-Tchunflay-e-Tchovis\\Jogo\\Assets\\Scripts\\ControleJogador.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ControleJogador.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAPkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T22:06:23.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "GerenciadorLuta.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\Jogo-Tchunflay-e-Tchovis\\Jogo\\Assets\\Scripts\\GerenciadorLuta.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Jogo-Tchunflay-e-Tchovis\\Jogo\\Assets\\Scripts\\GerenciadorLuta.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GerenciadorLuta.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\Jogo-Tchunflay-e-Tchovis\\Jogo\\Assets\\Scripts\\GerenciadorLuta.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Jogo-Tchunflay-e-Tchovis\\Jogo\\Assets\\Scripts\\GerenciadorLuta.cs",
               "RelativeToolTip": "Assets\\Scripts\\GerenciadorLuta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-14T23:48:02.166Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "SeletorPersonagem.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\Jogo-Tchunflay-e-Tchovis\\Jogo\\Assets\\Scripts\\SeletorPersonagem.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Jogo-Tchunflay-e-Tchovis\\Jogo\\Assets\\Scripts\\SeletorPersonagem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SeletorPersonagem.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\Jogo-Tchunflay-e-Tchovis\\Jogo\\Assets\\Scripts\\SeletorPersonagem.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Jogo-Tchunflay-e-Tchovis\\Jogo\\Assets\\Scripts\\SeletorPersonagem.cs",
               "RelativeToolTip": "Assets\\Scripts\\SeletorPersonagem.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAADwv1gAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-14T20:30:20.067Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "DadosDoJogo.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\Jogo-Tchunflay-e-Tchovis\\Jogo\\Assets\\Scripts\\DadosDoJogo.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Jogo-Tchunflay-e-Tchovis\\Jogo\\Assets\\Scripts\\DadosDoJogo.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DadosDoJogo.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\Jogo-Tchunflay-e-Tchovis\\Jogo\\Assets\\Scripts\\DadosDoJogo.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Jogo-Tchunflay-e-Tchovis\\Jogo\\Assets\\Scripts\\DadosDoJogo.cs",
               "RelativeToolTip": "Assets\\Scripts\\DadosDoJogo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-14T20:24:34.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoadScene.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Jogo-Tchunflay-e-Tchovis\\Jogo\\Assets\\Scripts\\LoadScene.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LoadScene.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Jogo-Tchunflay-e-Tchovis\\Jogo\\Assets\\Scripts\\LoadScene.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LoadScene.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T07:13:44.284Z",
               "EditorCaption": ""
             }
           ]
