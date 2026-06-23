@@ -24,8 +24,11 @@ public class ControleJogador : MonoBehaviour
 
     [Header("Sprites de Combate")]
     public Sprite spriteNormal;
+    public Sprite spriteHadukenPose;
     public Sprite spriteSoco;
     public Sprite spriteChute;
+    public GameObject prefabProjetil;
+    public float distanciaSpawnHaduken = 0.6f;
 
     [Header("Animação de Caminhada")]
     public Sprite spriteAndando;
@@ -42,6 +45,7 @@ public class ControleJogador : MonoBehaviour
     private bool olhandoParaDireita;
     private bool spritesBaseOlhamParaDireita;
     private bool estaMorto = false;
+    private bool estaLancandoHaduken = false;
 
 
     void Start()
@@ -62,6 +66,10 @@ public class ControleJogador : MonoBehaviour
     void Update()
     {
         if (estaMorto) return;
+        if (estaLancandoHaduken)
+        {
+            return;
+        }
 
         // para eles andarem
         if (!estaAtacando)
@@ -76,7 +84,7 @@ public class ControleJogador : MonoBehaviour
             }
         }
 
-        if (!estaAtacando)
+        if (!estaAtacando && !estaLancandoHaduken)
         {
             if (ehJogador1)
             {
@@ -93,6 +101,8 @@ public class ControleJogador : MonoBehaviour
                     StartCoroutine(ExecutarAtaque(spriteSoco, danoSoco));
                 if (Input.GetKeyDown(KeyCode.E)) 
                     StartCoroutine(ExecutarAtaque(spriteChute, danoChute));
+                if (Input.GetKeyDown(KeyCode.R)) 
+                    StartCoroutine(LancarHaduken());
             }
             else
             {
@@ -109,6 +119,8 @@ public class ControleJogador : MonoBehaviour
                     StartCoroutine(ExecutarAtaque(spriteSoco, danoSoco));
                 if (Input.GetKeyDown(KeyCode.K)) 
                     StartCoroutine(ExecutarAtaque(spriteChute, danoChute));
+                if (Input.GetKeyDown(KeyCode.L)) 
+                    StartCoroutine(LancarHaduken());
             }
         }
 
@@ -123,14 +135,14 @@ public class ControleJogador : MonoBehaviour
             AtualizarDirecaoVisual();
         }
 
-        if (estaAtacando) movimentoHorizontal = 0;
+        if (estaAtacando || estaLancandoHaduken) movimentoHorizontal = 0;
     }
 
     void FixedUpdate()
     {
         if (estaMorto) return;
 
-        if (!estaAtacando)
+        if (!estaAtacando && !estaLancandoHaduken)
             rb.linearVelocity = new Vector2(movimentoHorizontal * velocidade, rb.linearVelocity.y);
         else
             rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
@@ -151,6 +163,9 @@ public class ControleJogador : MonoBehaviour
 
     void AnimarCaminhada()
     {
+        
+        if (estaLancandoHaduken) return;
+
         if (spriteAndando == null) return;
         tempoAnimacaoAtual += Time.deltaTime;
         if (tempoAnimacaoAtual >= velocidadeAnimacao)
@@ -246,6 +261,45 @@ public class ControleJogador : MonoBehaviour
 
         string textoVitoria = ehJogador1 ? "K.O!\nJOGADOR 2 VENCEU!" : "K.O!\nJOGADOR 1 VENCEU!";
         GerenciadorLuta.Instancia.FinalizarLuta(textoVitoria);
+    }
+
+    IEnumerator LancarHaduken()
+    {
+        if (prefabProjetil == null) yield break;
+
+        estaLancandoHaduken = true;
+
+        // tem q trocar o sprite do personagem para a pose de "Lançamento" (K.O. style)
+        // spriteRenderer.sprite = spriteHadukenPose;
+        Sprite spriteOriginal = spriteRenderer.sprite;
+        if (spriteHadukenPose != null)
+        {
+            spriteRenderer.sprite = spriteHadukenPose;
+        }
+
+        float direcao = olhandoParaDireita ? 1f : -1f;
+        float distanciaSpawn = Mathf.Max(1.5f, Mathf.Abs(transform.lossyScale.x) * distanciaSpawnHaduken) - 90;
+
+        //instancia o projétil em uma posição levemente na frente do jogador
+        Vector3 posicaoSpawn = transform.position + new Vector3(direcao * distanciaSpawn, 0f, 0f);
+        GameObject novoHaduken = Instantiate(prefabProjetil, posicaoSpawn, Quaternion.identity);
+        HadukenScript haduken = novoHaduken.GetComponent<HadukenScript>();
+        if (haduken != null)
+            haduken.DefinirDono(this);
+
+        SpriteRenderer renderizadorHaduken = novoHaduken.GetComponent<SpriteRenderer>();
+        if (renderizadorHaduken != null)
+            renderizadorHaduken.sortingOrder = spriteRenderer.sortingOrder + 1;
+
+        //passa a direção para o projétil saber para onde ir, mantendo o tamanho do prefab
+        Vector3 escalaProjetil = novoHaduken.transform.localScale;
+        escalaProjetil.x = Mathf.Abs(escalaProjetil.x) * direcao;
+        novoHaduken.transform.localScale = escalaProjetil;
+
+        yield return new WaitForSeconds(0.4f); //pequeno atraso na pose de lançamento
+        spriteRenderer.sprite = spriteOriginal;
+
+        estaLancandoHaduken = false;
     }
 
 }

@@ -420,6 +420,8 @@
 "Assets/Scripts/ControleJogador.cs"
 "Assets/Scripts/DadosDoJogo.cs"
 "Assets/Scripts/GerenciadorLuta.cs"
+"Assets/Scripts/GerenciadorPause.cs"
+"Assets/Scripts/HadukenScript.cs"
 "Assets/Scripts/LoadScene.cs"
 "Assets/Scripts/SeletorPersonagem.cs"
 -langversion:9.0

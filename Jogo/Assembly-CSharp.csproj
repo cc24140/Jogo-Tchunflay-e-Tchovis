@@ -63,8 +63,10 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\GerenciadorLuta.cs" />
     <Compile Include="Assets\Scripts\DadosDoJogo.cs" />
+    <Compile Include="Assets\Scripts\GerenciadorPause.cs" />
     <Compile Include="Assets\Scripts\SeletorPersonagem.cs" />
     <Compile Include="Assets\Scripts\ControleJogador.cs" />
+    <Compile Include="Assets\Scripts\HadukenScript.cs" />
     <Compile Include="Assets\Scripts\LoadScene.cs" />
   </ItemGroup>
   <ItemGroup>

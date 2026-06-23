@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class GerenciadorLuta : MonoBehaviour
 {
@@ -18,6 +19,7 @@ public class GerenciadorLuta : MonoBehaviour
     public Slider barraVidaJ1;
     public Slider barraVidaJ2;
     public TextMeshProUGUI textoTempo;
+    public GameObject fundoFim;
     public TextMeshProUGUI textoVitoria;
 
     [Header("Configurações da Luta")]
@@ -61,7 +63,9 @@ public class GerenciadorLuta : MonoBehaviour
         // configura o relógio
         Time.timeScale = 1f;
         tempoAtual = tempoMaximo;
-        textoVitoria.gameObject.SetActive(false);
+
+        // Esconde o painel inteiro de fim de jogo para a luta começar limpa
+        if (fundoFim != null) fundoFim.SetActive(false);
     }
 
     void Update()
@@ -99,8 +103,13 @@ public class GerenciadorLuta : MonoBehaviour
     public void FinalizarLuta(string mensagemVitoria)
     {
         lutaAcabou = true;
+
+        // Altera o texto com o vencedor da vez
         textoVitoria.text = mensagemVitoria;
-        textoVitoria.gameObject.SetActive(true);
+
+        // LIGA O PAINEL MÃE! (Isso faz o fundo, o texto e os botões aparecerem juntos)
+        if (fundoFim != null) fundoFim.SetActive(true);
+
         Time.timeScale = 0f;
     }
 
@@ -112,5 +121,16 @@ public class GerenciadorLuta : MonoBehaviour
             FinalizarLuta("TEMPO ESGOTADO!\nJOGADOR 2 VENCEU!");
         else
             FinalizarLuta("TEMPO ESGOTADO!\nEMPATE!");
+    }
+
+    public void ReiniciarLuta()
+    {
+        Time.timeScale = 1f; //descongela o tempo, senão o jogo reinicia travado!
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name); //recarrega a cena atual
+    }
+
+    public void IrMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 }
