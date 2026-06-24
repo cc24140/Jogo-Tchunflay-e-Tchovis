@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class ControleJogador : MonoBehaviour
 {
+    [Header("Efeitos de Áudio")]
+    public AudioClip somDarGolpe;
+    public AudioClip somTomarDano;
+    private AudioSource audioSource;
+
     [Header("Combate e Vida")]
     public float vidaMaxima = 100f;
     private float vidaAtual;
@@ -52,6 +57,7 @@ public class ControleJogador : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        audioSource = GetComponent<AudioSource>();
 
         if (spriteNormal != null) 
             spriteRenderer.sprite = spriteNormal;
@@ -189,6 +195,10 @@ public class ControleJogador : MonoBehaviour
         estaAtacando = true;
         spriteRenderer.sprite = spriteDoAtaque;
         AtualizarDirecaoVisual();
+        if (audioSource != null && somDarGolpe != null)
+        {
+            audioSource.PlayOneShot(somDarGolpe); // Toca o som do vento do soco/chute
+        }
 
         if (pontoDeAtaque != null)
         {
@@ -235,9 +245,21 @@ public class ControleJogador : MonoBehaviour
         }
     }
 
-    public void TomarDano(float dano)
+    public void TocarSomPersonalizado(AudioClip som)
+    {
+        if (audioSource != null && som != null)
+        {
+            audioSource.PlayOneShot(som);
+        }
+    }
+    public void TomarDano(float dano, bool tocarSom = true)
     {
         if (estaMorto) return;
+
+        if (tocarSom && audioSource != null && somTomarDano != null)
+        {
+            audioSource.PlayOneShot(somTomarDano); // Toca o som de impacto/grito de dor
+        }
 
         vidaAtual -= dano;
 
@@ -285,7 +307,13 @@ public class ControleJogador : MonoBehaviour
         GameObject novoHaduken = Instantiate(prefabProjetil, posicaoSpawn, Quaternion.identity);
         HadukenScript haduken = novoHaduken.GetComponent<HadukenScript>();
         if (haduken != null)
+        {
             haduken.DefinirDono(this);
+            if (audioSource != null && haduken.somLancamento != null)
+                audioSource.PlayOneShot(haduken.somLancamento);
+            else
+                haduken.TocarSomLancamento(posicaoSpawn);
+        }
 
         SpriteRenderer renderizadorHaduken = novoHaduken.GetComponent<SpriteRenderer>();
         if (renderizadorHaduken != null)

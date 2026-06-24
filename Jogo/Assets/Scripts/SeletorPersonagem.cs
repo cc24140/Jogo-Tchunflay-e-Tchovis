@@ -19,6 +19,10 @@ public class SeletorPersonagem : MonoBehaviour
     public RectTransform botaoTchovisJ2;
     public RectTransform botaoTchunflayJ2;
 
+    [Header("Música do Menu")]
+    public AudioClip musicaMenuInicial;
+    private AudioSource audioSource;
+
     // as privadas da classe
     private bool J1Escolhido = false;
     private bool J2Escolhido = false;
@@ -26,6 +30,19 @@ public class SeletorPersonagem : MonoBehaviour
 
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+        }
+
+        // Configura e toca a música em loop
+        if (musicaMenuInicial != null)
+        {
+            audioSource.clip = musicaMenuInicial;
+            audioSource.loop = true;
+            audioSource.Play();
+        }
         // força o jogo a começar sabendo que o P1 está com o boneco de cima selecionado
         DadosDoJogo.PersonagemJ1 = "Tchovis";
         J1Escolhido = true;

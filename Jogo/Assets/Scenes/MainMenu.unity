@@ -1877,6 +1877,7 @@ MonoBehaviour:
   botaoTchunflayJ1: {fileID: 745460619}
   botaoTchovisJ2: {fileID: 1624475651}
   botaoTchunflayJ2: {fileID: 1099017150}
+  musicaMenuInicial: {fileID: 8300000, guid: 04527fa655c944f4a9709817841ceec4, type: 3}
 --- !u!4 &1351243307
 Transform:
   m_ObjectHideFlags: 0

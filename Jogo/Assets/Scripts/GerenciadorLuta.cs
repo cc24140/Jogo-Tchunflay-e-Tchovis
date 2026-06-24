@@ -15,6 +15,11 @@ public class GerenciadorLuta : MonoBehaviour
     public GameObject bonecoTchunflayJ2;
     public GameObject bonecoTchovisJ2;
 
+    [Header("Sons do Jogo")]
+    public AudioClip musicaFundo;
+    public AudioClip musicaFimJogo;
+    private AudioSource audioSource;
+
     [Header("Interface (UI)")]
     public Slider barraVidaJ1;
     public Slider barraVidaJ2;
@@ -66,6 +71,14 @@ public class GerenciadorLuta : MonoBehaviour
 
         // Esconde o painel inteiro de fim de jogo para a luta começar limpa
         if (fundoFim != null) fundoFim.SetActive(false);
+
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource != null && musicaFundo != null)
+        {
+            audioSource.clip = musicaFundo;
+            audioSource.loop = true; // Deixa a música de fundo tocando em loop
+            audioSource.Play();
+        }
     }
 
     void Update()
@@ -111,6 +124,16 @@ public class GerenciadorLuta : MonoBehaviour
         if (fundoFim != null) fundoFim.SetActive(true);
 
         Time.timeScale = 0f;
+        if (audioSource != null)
+        {
+            audioSource.Stop();
+            if (musicaFimJogo != null)
+            {
+                audioSource.clip = musicaFimJogo;
+                audioSource.loop = false; // Música de fim de jogo toca só uma vez
+                audioSource.Play();
+            }
+        }
     }
 
     void AcabouOTempo()
