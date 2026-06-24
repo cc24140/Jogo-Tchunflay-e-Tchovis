@@ -803,7 +803,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1351243306}
         m_TargetAssemblyTypeName: SeletorPersonagem, Assembly-CSharp
-        m_MethodName: SelecionarP1_Cima
+        m_MethodName: SelecionarJ1_Cima
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -936,7 +936,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1351243306}
         m_TargetAssemblyTypeName: SeletorPersonagem, Assembly-CSharp
-        m_MethodName: SelecionarP1_Baixo
+        m_MethodName: SelecionarJ1_Baixo
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1546,7 +1546,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1351243306}
         m_TargetAssemblyTypeName: SeletorPersonagem, Assembly-CSharp
-        m_MethodName: SelecionarP2_Baixo
+        m_MethodName: SelecionarJ2_Baixo
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1631,7 +1631,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -370, y: 371}
+  m_AnchoredPosition: {x: 285, y: 366.99994}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1246499630
@@ -1873,10 +1873,10 @@ MonoBehaviour:
   bordaJ1: {fileID: 1567519609}
   bordaJ2: {fileID: 1263603013}
   botaoConfirmar: {fileID: 2098055789}
-  botaoTchovisJ1: {fileID: 0}
-  botaoTchunflayJ1: {fileID: 0}
-  botaoTchovisJ2: {fileID: 0}
-  botaoTchunflayJ2: {fileID: 0}
+  botaoTchovisJ1: {fileID: 649559287}
+  botaoTchunflayJ1: {fileID: 745460619}
+  botaoTchovisJ2: {fileID: 1624475651}
+  botaoTchunflayJ2: {fileID: 1099017150}
 --- !u!4 &1351243307
 Transform:
   m_ObjectHideFlags: 0
@@ -2097,7 +2097,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 278, y: 371}
+  m_AnchoredPosition: {x: -404, y: 367}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1503211145
@@ -2512,7 +2512,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1351243306}
         m_TargetAssemblyTypeName: SeletorPersonagem, Assembly-CSharp
-        m_MethodName: SelecionarP2_Cima
+        m_MethodName: SelecionarJ2_Cima
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

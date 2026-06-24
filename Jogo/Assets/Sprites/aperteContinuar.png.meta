@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 69dbee6b57f997e43a0bea7cfcb83505
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5418465490258901687
+    second: aperteContinuar_0
+  - first:
+      213: -202434109357178255
+    second: aperteContinuar_1
+  - first:
+      213: 7011533726307062416
+    second: aperteContinuar_2
+  - first:
+      213: -3027450334675656462
+    second: aperteContinuar_3
+  - first:
+      213: -2063106670231953200
+    second: aperteContinuar_4
+  - first:
+      213: -4536455960916256882
+    second: aperteContinuar_5
+  - first:
+      213: -4946470480794543742
+    second: aperteContinuar_6
+  - first:
+      213: -7338448416615182066
+    second: aperteContinuar_7
+  - first:
+      213: -2343185576281973738
+    second: aperteContinuar_8
+  - first:
+      213: 7387916923608479894
+    second: aperteContinuar_9
+  - first:
+      213: 5722402734081802379
+    second: aperteContinuar_10
+  - first:
+      213: 606867263042836319
+    second: aperteContinuar_11
+  - first:
+      213: -4923608881238962091
+    second: aperteContinuar_12
+  - first:
+      213: 6726834382615103321
+    second: aperteContinuar_13
+  - first:
+      213: -7448283444608703304
+    second: aperteContinuar_14
+  - first:
+      213: 5475494336412041866
+    second: aperteContinuar_15
+  - first:
+      213: -7178593242596610050
+    second: aperteContinuar_16
+  - first:
+      213: 7400592206475851855
+    second: aperteContinuar_17
+  - first:
+      213: 67527625904940924
+    second: aperteContinuar_18
+  - first:
+      213: -1736160774295408511
+    second: aperteContinuar_19
+  - first:
+      213: 5293744727657570320
+    second: aperteContinuar_20
+  - first:
+      213: -5464325442365082701
+    second: aperteContinuar_21
+  - first:
+      213: 2572355060449209134
+    second: aperteContinuar_22
+  - first:
+      213: 526097298387265687
+    second: aperteContinuar_23
+  - first:
+      213: -4120045725882445117
+    second: aperteContinuar_24
+  - first:
+      213: 4662131120130856147
+    second: aperteContinuar_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: aperteContinuar_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ba3896b7a1423b40800000000000000
+      internalID: 5418465490258901687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aperteContinuar_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 0
+        width: 61
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 172c755004fc03df0800000000000000
+      internalID: -202434109357178255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aperteContinuar_2
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 13
+        width: 62
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 092143f76c8fd4160800000000000000
+      internalID: 7011533726307062416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aperteContinuar_3
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 13
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f02582f5f55cf5d0800000000000000
+      internalID: -3027450334675656462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aperteContinuar_4
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 13
+        width: 61
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d0e51b0a6f5e53e0800000000000000
+      internalID: -2063106670231953200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aperteContinuar_5
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 13
+        width: 62
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e871266b6554b01c0800000000000000
+      internalID: -4536455960916256882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aperteContinuar_6
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 13
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28919442e4b9a5bb0800000000000000
+      internalID: -4946470480794543742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aperteContinuar_7
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 13
+        width: 61
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e01df1dbb08982a90800000000000000
+      internalID: -7338448416615182066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aperteContinuar_8
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 13
+        width: 62
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61cd4e212255b7fd0800000000000000
+      internalID: -2343185576281973738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aperteContinuar_9
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 13
+        width: 61
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 698b7c59c47278660800000000000000
+      internalID: 7387916923608479894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aperteContinuar_10
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 13
+        width: 61
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b808ba2d7fe0a6f40800000000000000
+      internalID: 5722402734081802379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aperteContinuar_11
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 0
+        width: 61
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f575b777f860c6800800000000000000
+      internalID: 606867263042836319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aperteContinuar_12
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 13
+        width: 61
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5501bc41fc3dbabb0800000000000000
+      internalID: -4923608881238962091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aperteContinuar_13
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 13
+        width: 56
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95748ae0b348a5d50800000000000000
+      internalID: 6726834382615103321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aperteContinuar_14
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 13
+        width: 61
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b4eca97ba162a890800000000000000
+      internalID: -7448283444608703304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aperteContinuar_15
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 13
+        width: 61
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a82c08ba61ddcfb40800000000000000
+      internalID: 5475494336412041866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aperteContinuar_16
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 14
+        width: 61
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eff620cca73806c90800000000000000
+      internalID: -7178593242596610050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aperteContinuar_17
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 13
+        width: 62
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f48748ad66f24b660800000000000000
+      internalID: 7400592206475851855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aperteContinuar_18
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 13
+        width: 62
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c77e69a9408efe000800000000000000
+      internalID: 67527625904940924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aperteContinuar_19
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 55
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 180b72f69fae7e7e0800000000000000
+      internalID: -1736160774295408511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aperteContinuar_20
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 13
+        width: 61
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01060a748c8277940800000000000000
+      internalID: 5293744727657570320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aperteContinuar_21
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 13
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b333be16f0da24b0800000000000000
+      internalID: -5464325442365082701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aperteContinuar_22
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 13
+        width: 61
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2be04e6c47d2b320800000000000000
+      internalID: 2572355060449209134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aperteContinuar_23
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 13
+        width: 56
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7986aab94b21d4700800000000000000
+      internalID: 526097298387265687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aperteContinuar_24
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 13
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c21962cd38a2d6c0800000000000000
+      internalID: -4120045725882445117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aperteContinuar_25
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 9
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d491bf7d8733b040800000000000000
+      internalID: 4662131120130856147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      aperteContinuar_0: 5418465490258901687
+      aperteContinuar_1: -202434109357178255
+      aperteContinuar_10: 5722402734081802379
+      aperteContinuar_11: 606867263042836319
+      aperteContinuar_12: -4923608881238962091
+      aperteContinuar_13: 6726834382615103321
+      aperteContinuar_14: -7448283444608703304
+      aperteContinuar_15: 5475494336412041866
+      aperteContinuar_16: -7178593242596610050
+      aperteContinuar_17: 7400592206475851855
+      aperteContinuar_18: 67527625904940924
+      aperteContinuar_19: -1736160774295408511
+      aperteContinuar_2: 7011533726307062416
+      aperteContinuar_20: 5293744727657570320
+      aperteContinuar_21: -5464325442365082701
+      aperteContinuar_22: 2572355060449209134
+      aperteContinuar_23: 526097298387265687
+      aperteContinuar_24: -4120045725882445117
+      aperteContinuar_25: 4662131120130856147
+      aperteContinuar_3: -3027450334675656462
+      aperteContinuar_4: -2063106670231953200
+      aperteContinuar_5: -4536455960916256882
+      aperteContinuar_6: -4946470480794543742
+      aperteContinuar_7: -7338448416615182066
+      aperteContinuar_8: -2343185576281973738
+      aperteContinuar_9: 7387916923608479894
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
