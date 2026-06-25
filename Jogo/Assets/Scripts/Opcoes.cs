@@ -6,7 +6,6 @@ public class Opcoes : MonoBehaviour
 {
     public Slider volumeSlider;
     public TMP_InputField timer;
-    public Toggle fpsToggle;
 
     public static float tempoConfigurado = 91f;
 
@@ -15,8 +14,6 @@ public class Opcoes : MonoBehaviour
         volumeSlider.value = AudioListener.volume;
         volumeSlider.onValueChanged.AddListener(SetVolume);
         timer.text = tempoConfigurado.ToString();
-        bool mostrarFPS = PlayerPrefs.GetInt("MostrarFPS", 0) == 1;
-        fpsToggle.isOn = mostrarFPS;
     }
 
     public void SetVolume(float volume)

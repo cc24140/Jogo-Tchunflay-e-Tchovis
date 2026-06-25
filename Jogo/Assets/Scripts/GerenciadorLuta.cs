@@ -68,7 +68,6 @@ public class GerenciadorLuta : MonoBehaviour
         // configura o relógio
         Time.timeScale = 1f;
         tempoMaximo = PlayerPrefs.GetFloat("tempoConfigurado", 91f);
-        Debug.Log("tempoMaximo = " + tempoMaximo);
         tempoAtual = tempoMaximo;
 
         // Esconde o painel inteiro de fim de jogo para a luta começar limpa
