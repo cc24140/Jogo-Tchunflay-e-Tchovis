@@ -26,6 +26,7 @@ public class ControleJogador : MonoBehaviour
 
     [Header("Identificação do Jogador")]
     public bool ehJogador1 = true;
+    public bool controladoPorIA = false;
 
     [Header("Sprites de Combate")]
     public Sprite spriteNormal;
@@ -90,7 +91,7 @@ public class ControleJogador : MonoBehaviour
             }
         }
 
-        if (!estaAtacando && !estaLancandoHaduken)
+        if (!estaAtacando && !estaLancandoHaduken && !controladoPorIA)
         {
             if (ehJogador1)
             {
@@ -282,7 +283,11 @@ public class ControleJogador : MonoBehaviour
         transform.eulerAngles = new Vector3(0, 0, -90);
 
         string textoVitoria = ehJogador1 ? "K.O!\nJOGADOR 2 VENCEU!" : "K.O!\nJOGADOR 1 VENCEU!";
-        GerenciadorLuta.Instancia.FinalizarLuta(textoVitoria);
+
+        if (GerenciadorLuta.Instancia != null)
+        {
+            GerenciadorLuta.Instancia.FinalizarLuta(textoVitoria);
+        }
     }
 
     IEnumerator LancarHaduken()
@@ -328,6 +333,59 @@ public class ControleJogador : MonoBehaviour
         spriteRenderer.sprite = spriteOriginal;
 
         estaLancandoHaduken = false;
+    }
+
+    public bool PodeAgirIA()
+    {
+        //iA só pode agir se não estiver morta, nem atacando, nem lançando poder
+        return !estaMorto && !estaAtacando && !estaLancandoHaduken;
+    }
+
+    public void PararMovimentoIA()
+    {
+        movimentoHorizontal = 0f;
+    }
+
+    public void DefinirMovimentoIA(float direcao)
+    {
+        movimentoHorizontal = direcao;
+    }
+
+    public void SocoIA()
+    {
+        if (PodeAgirIA())
+        {
+            StartCoroutine(ExecutarAtaque(spriteSoco, danoSoco));
+        }
+    }
+
+    public void ChuteIA()
+    {
+        if (PodeAgirIA())
+        {
+            StartCoroutine(ExecutarAtaque(spriteChute, danoChute));
+        }
+    }
+
+    public void HadukenIA()
+    {
+        if (PodeAgirIA())
+        {
+            StartCoroutine(LancarHaduken());
+        }
+    }
+
+    public bool EstaNoChaoIA()
+    {
+        return estaNoChao;
+    }
+
+    public void PularIA()
+    {
+        if (estaNoChao && PodeAgirIA())
+        {
+            Pular();
+        }
     }
 
 }

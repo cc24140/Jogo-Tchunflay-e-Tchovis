@@ -48,35 +48,56 @@ public class GerenciadorLuta : MonoBehaviour
         bonecoTchunflayJ2.SetActive(false);
         bonecoTchovisJ2.SetActive(false);
 
-        // ativa apenas o personagem escolhido de cada jogador
+        // --- SALVAMOS QUEM É O JOGADOR 1 (O ALVO) ---
         string escolhidoJ1 = DadosDoJogo.PersonagemJ1;
-        if (escolhidoJ1 == "Tchunflay")
-            bonecoTchunflayJ1.SetActive(true);
-        else if (escolhidoJ1 == "Tchovis")
-            bonecoTchovisJ1.SetActive(true);
+        GameObject bonecoAtivoJ1 = null;
 
+        if (escolhidoJ1 == "Tchunflay")
+        {
+            bonecoTchunflayJ1.SetActive(true);
+            bonecoAtivoJ1 = bonecoTchunflayJ1;
+        }
+        else if (escolhidoJ1 == "Tchovis")
+        {
+            bonecoTchovisJ1.SetActive(true);
+            bonecoAtivoJ1 = bonecoTchovisJ1;
+        }
+
+        // --- SALVAMOS QUEM É O JOGADOR 2 ---
         string escolhidoJ2 = DadosDoJogo.PersonagemJ2;
+        GameObject bonecoAtivoJ2 = null;
+
         if (escolhidoJ2 == "Tchunflay")
+        {
             bonecoTchunflayJ2.SetActive(true);
+            bonecoAtivoJ2 = bonecoTchunflayJ2;
+        }
         else if (escolhidoJ2 == "Tchovis")
+        {
             bonecoTchovisJ2.SetActive(true);
+            bonecoAtivoJ2 = bonecoTchovisJ2;
+        }
+
+        // AGORA MANDAMOS O JOGADOR 2 E AVISAMOS QUE O JOGADOR 1 É O ALVO!
+        if (bonecoAtivoJ2 != null && bonecoAtivoJ1 != null)
+        {
+            ConfigurarControleJ2(bonecoAtivoJ2, bonecoAtivoJ1.transform);
+        }
 
         // força as barras de vida a começarem cheias
         PrepararBarraVida(barraVidaJ1);
         PrepararBarraVida(barraVidaJ2);
 
-        // configura o relógio
         Time.timeScale = 1f;
         tempoAtual = tempoMaximo;
 
-        // Esconde o painel inteiro de fim de jogo para a luta começar limpa
         if (fundoFim != null) fundoFim.SetActive(false);
 
         audioSource = GetComponent<AudioSource>();
         if (audioSource != null && musicaFundo != null)
         {
             audioSource.clip = musicaFundo;
-            audioSource.loop = true; // Deixa a música de fundo tocando em loop
+            audioSource.loop = true;
             audioSource.Play();
         }
     }
@@ -156,4 +177,49 @@ public class GerenciadorLuta : MonoBehaviour
     {
         SceneManager.LoadScene("MainMenu");
     }
+
+    private void ConfigurarControleJ2(GameObject bonecoJ2, Transform alvo)
+    {
+        ControleJogador controleHumano = bonecoJ2.GetComponent<ControleJogador>();
+        IAFacil iaFacil = bonecoJ2.GetComponent<IAFacil>();
+        IAMedio iaMedio = bonecoJ2.GetComponent<IAMedio>();
+        IADificil iaDificil = bonecoJ2.GetComponent<IADificil>();
+
+        if (DadosDoJogo.ModoJogo == "IA")
+        {
+            if (controleHumano != null) controleHumano.controladoPorIA = true;
+
+            if (iaFacil != null) iaFacil.enabled = false;
+            if (iaMedio != null) iaMedio.enabled = false;
+            if (iaDificil != null) iaDificil.enabled = false;
+
+            string dif = DadosDoJogo.Dificuldade.ToLower().Replace("á", "a").Replace("í", "i");
+
+            // LIGA A IA E AVISA PRA ELA QUEM É O ALVO!
+            if (dif == "facil" && iaFacil != null)
+            {
+                iaFacil.enabled = true;
+                iaFacil.DefinirAlvo(alvo);
+            }
+            else if (dif == "medio" && iaMedio != null)
+            {
+                iaMedio.enabled = true;
+                iaMedio.DefinirAlvo(alvo);
+            }
+            else if (dif == "dificil" && iaDificil != null)
+            {
+                iaDificil.enabled = true;
+                iaDificil.DefinirAlvo(alvo);
+            }
+        }
+        else // Caso seja "DoisJogadores"
+        {
+            if (controleHumano != null) controleHumano.controladoPorIA = false;
+
+            if (iaFacil != null) iaFacil.enabled = false;
+            if (iaMedio != null) iaMedio.enabled = false;
+            if (iaDificil != null) iaDificil.enabled = false;
+        }
+    }
+
 }
