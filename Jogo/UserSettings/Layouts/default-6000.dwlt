@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 95
+  controlID: 77
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -112,7 +112,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -121,14 +121,14 @@ MonoBehaviour:
     y: 553
     width: 1466
     height: 380
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 18}
+  m_MinSize: {x: 231, y: 276}
+  m_MaxSize: {x: 10001, y: 10026}
+  m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
   - {fileID: 18}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -614,28 +614,28 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 30378
+    - m_Data: 28200
     m_LastClickedID:
-      m_Data: 30378
+      m_Data: 28200
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 30248
-    - m_Data: 30250
-    - m_Data: 30252
-    - m_Data: 30254
-    - m_Data: 30256
-    - m_Data: 30258
-    - m_Data: 30260
-    - m_Data: 30262
-    - m_Data: 30264
-    - m_Data: 30266
-    - m_Data: 30268
-    - m_Data: 30270
-    - m_Data: 30272
-    - m_Data: 30274
-    - m_Data: 30276
-    - m_Data: 30278
-    - m_Data: 30280
+    - m_Data: 28064
+    - m_Data: 28066
+    - m_Data: 28068
+    - m_Data: 28070
+    - m_Data: 28072
+    - m_Data: 28074
+    - m_Data: 28076
+    - m_Data: 28078
+    - m_Data: 28080
+    - m_Data: 28082
+    - m_Data: 28084
+    - m_Data: 28086
+    - m_Data: 28088
+    - m_Data: 28090
+    - m_Data: 28092
+    - m_Data: 28094
+    - m_Data: 28096
     - m_Data: 1000000000
     - m_Data: 2147483647
     m_RenameOverlay:
@@ -670,23 +670,23 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 30248
-    - m_Data: 30250
-    - m_Data: 30252
-    - m_Data: 30254
-    - m_Data: 30256
-    - m_Data: 30258
-    - m_Data: 30260
-    - m_Data: 30262
-    - m_Data: 30264
-    - m_Data: 30266
-    - m_Data: 30268
-    - m_Data: 30270
-    - m_Data: 30272
-    - m_Data: 30274
-    - m_Data: 30276
-    - m_Data: 30278
-    - m_Data: 30280
+    - m_Data: 28064
+    - m_Data: 28066
+    - m_Data: 28068
+    - m_Data: 28070
+    - m_Data: 28072
+    - m_Data: 28074
+    - m_Data: 28076
+    - m_Data: 28078
+    - m_Data: 28080
+    - m_Data: 28082
+    - m_Data: 28084
+    - m_Data: 28086
+    - m_Data: 28088
+    - m_Data: 28090
+    - m_Data: 28092
+    - m_Data: 28094
+    - m_Data: 28096
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -714,8 +714,8 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
     m_SelectedInstanceIDs:
-    - m_Data: 41276
-    m_LastClickedInstanceID: 41276
+    - m_Data: -1982
+    m_LastClickedInstanceID: -1982
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs:
     - m_Data: 27810
@@ -849,37 +849,19 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: []
+      m_SelectedIDs:
+      - m_Data: -1982
       m_LastClickedID:
-        m_Data: 0
+        m_Data: -1982
       m_ExpandedIDs:
-      - m_Data: -69342
-      - m_Data: -67618
-      - m_Data: -57298
-      - m_Data: -56702
-      - m_Data: -53220
-      - m_Data: -49652
-      - m_Data: -49638
-      - m_Data: -41834
-      - m_Data: -41820
-      - m_Data: -39548
-      - m_Data: -27064
-      - m_Data: -26404
-      - m_Data: -22416
-      - m_Data: -18436
-      - m_Data: -17906
-      - m_Data: -15786
-      - m_Data: 29914
-      - m_Data: 29954
-      - m_Data: 40378
-      - m_Data: 41088
-      - m_Data: 41364
-      - m_Data: 51016
-      - m_Data: 51294
+      - m_Data: -1292
+      - m_Data: 27560
+      - m_Data: 27858
+      - m_Data: 27920
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: ConfirmarBtn
-        m_OriginalName: ConfirmarBtn
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
@@ -887,10 +869,10 @@ MonoBehaviour:
           width: 0
           height: 0
         m_UserData:
-          m_Data: -69342
+          m_Data: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
         m_ClientGUIView: {fileID: 4}
@@ -1511,9 +1493,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 548.3857, y: 160.95306, z: 3.322362}
+    m_Target: {x: 634.3721, y: 250.49565, z: 4.3202868}
     speed: 2
-    m_Value: {x: 558.90314, y: 158.19966, z: 3.4401875}
+    m_Value: {x: 634.3721, y: 250.49565, z: 4.3202868}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1563,9 +1545,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 273.61722
+    m_Target: 173.82458
     speed: 2
-    m_Value: 261.83466
+    m_Value: 173.82458
   m_Ortho:
     m_Target: 1
     speed: 2

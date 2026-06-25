@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\Documents\\GitHub\\Jogo-Tchunflay-e-Tchovis\\Jogo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\jogo-tchunflay-e-tchovis\\jogo\\assets\\scripts\\gerenciadorluta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gerenciadorluta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\jogo-tchunflay-e-tchovis\\jogo\\assets\\scripts\\opcoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\opcoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\jogo-tchunflay-e-tchovis\\jogo\\assets\\scripts\\gerenciadorluta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gerenciadorluta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 18,
+          "SelectedChildIndex": 19,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GerenciadorLuta.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\Jogo-Tchunflay-e-Tchovis\\Jogo\\Assets\\Scripts\\GerenciadorLuta.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GerenciadorLuta.cs",
@@ -107,13 +107,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Opcoes.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\Jogo-Tchunflay-e-Tchovis\\Jogo\\Assets\\Scripts\\Opcoes.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Opcoes.cs",
               "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\Jogo-Tchunflay-e-Tchovis\\Jogo\\Assets\\Scripts\\Opcoes.cs",
               "RelativeToolTip": "Assets\\Scripts\\Opcoes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-24T22:05:10.624Z",
               "EditorCaption": ""
