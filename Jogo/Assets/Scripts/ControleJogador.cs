@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ControleJogador : MonoBehaviour
 {
+
+
     [Header("Efeitos de Áudio")]
     public AudioClip somDarGolpe;
     public AudioClip somTomarDano;
@@ -65,7 +67,6 @@ public class ControleJogador : MonoBehaviour
         spritesBaseOlhamParaDireita = ehJogador1;
         olhandoParaDireita = ehJogador1;
         AtualizarDirecaoVisual();
-
         vidaAtual = vidaMaxima;
     }
 

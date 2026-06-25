@@ -423,6 +423,7 @@
 "Assets/Scripts/GerenciadorPause.cs"
 "Assets/Scripts/HadukenScript.cs"
 "Assets/Scripts/LoadScene.cs"
+"Assets/Scripts/Opcoes.cs"
 "Assets/Scripts/SeletorPersonagem.cs"
 -langversion:9.0
 /deterministic

@@ -28,7 +28,7 @@ public class GerenciadorLuta : MonoBehaviour
     public TextMeshProUGUI textoVitoria;
 
     [Header("Configurações da Luta")]
-    public float tempoMaximo = 90f;
+    public float tempoMaximo = 91f;
 
     // as privadas da classe
     private float tempoAtual;
@@ -67,6 +67,8 @@ public class GerenciadorLuta : MonoBehaviour
 
         // configura o relógio
         Time.timeScale = 1f;
+        tempoMaximo = PlayerPrefs.GetFloat("tempoConfigurado", 91f);
+        Debug.Log("tempoMaximo = " + tempoMaximo);
         tempoAtual = tempoMaximo;
 
         // Esconde o painel inteiro de fim de jogo para a luta começar limpa
