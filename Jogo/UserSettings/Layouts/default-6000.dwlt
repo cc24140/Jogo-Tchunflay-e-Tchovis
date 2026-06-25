@@ -619,27 +619,27 @@ MonoBehaviour:
       m_Data: 28074
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 27946
-    - m_Data: 27948
-    - m_Data: 27950
-    - m_Data: 27952
-    - m_Data: 27954
-    - m_Data: 27956
-    - m_Data: 27958
-    - m_Data: 27960
-    - m_Data: 27962
-    - m_Data: 27964
-    - m_Data: 27966
-    - m_Data: 27968
-    - m_Data: 27970
-    - m_Data: 27972
-    - m_Data: 27974
-    - m_Data: 27976
-    - m_Data: 27978
+    - m_Data: 28056
+    - m_Data: 28058
+    - m_Data: 28060
+    - m_Data: 28062
+    - m_Data: 28064
+    - m_Data: 28066
+    - m_Data: 28068
+    - m_Data: 28070
+    - m_Data: 28072
+    - m_Data: 28074
+    - m_Data: 28076
+    - m_Data: 28078
+    - m_Data: 28080
+    - m_Data: 28082
+    - m_Data: 28084
+    - m_Data: 28086
+    - m_Data: 28088
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Scenes
-      m_OriginalName: Scenes
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
@@ -647,10 +647,10 @@ MonoBehaviour:
         width: 0
         height: 0
       m_UserData:
-        m_Data: 28074
+        m_Data: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
       m_ClientGUIView: {fileID: 5}
@@ -668,23 +668,23 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 27946
-    - m_Data: 27948
-    - m_Data: 27950
-    - m_Data: 27952
-    - m_Data: 27954
-    - m_Data: 27956
-    - m_Data: 27958
-    - m_Data: 27960
-    - m_Data: 27962
-    - m_Data: 27964
-    - m_Data: 27966
-    - m_Data: 27968
-    - m_Data: 27970
-    - m_Data: 27972
-    - m_Data: 27974
-    - m_Data: 27976
-    - m_Data: 27978
+    - m_Data: 28056
+    - m_Data: 28058
+    - m_Data: 28060
+    - m_Data: 28062
+    - m_Data: 28064
+    - m_Data: 28066
+    - m_Data: 28068
+    - m_Data: 28070
+    - m_Data: 28072
+    - m_Data: 28074
+    - m_Data: 28076
+    - m_Data: 28078
+    - m_Data: 28080
+    - m_Data: 28082
+    - m_Data: 28084
+    - m_Data: 28086
+    - m_Data: 28088
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -850,21 +850,8 @@ MonoBehaviour:
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -40492
-      - m_Data: -40016
-      - m_Data: -38160
-      - m_Data: -37592
-      - m_Data: -37142
-      - m_Data: -36062
-      - m_Data: -2828
-      - m_Data: -1494
-      - m_Data: 27598
-      - m_Data: 39320
-      - m_Data: 39480
-      - m_Data: 42366
-      - m_Data: 42424
-      - m_Data: 42526
-      - m_Data: 42770
+      - m_Data: -1312
+      - m_Data: 27566
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 

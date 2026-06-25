@@ -27,7 +27,7 @@ public class GerenciadorLuta : MonoBehaviour
     public GameObject fundoFim;
     public TextMeshProUGUI textoVitoria;
 
-    [Header("Configurações da Luta")]
+    [Header("Configuraï¿½ï¿½es da Luta")]
     public float tempoMaximo = 90f;
 
     // as privadas da classe
@@ -48,7 +48,7 @@ public class GerenciadorLuta : MonoBehaviour
         bonecoTchunflayJ2.SetActive(false);
         bonecoTchovisJ2.SetActive(false);
 
-        // --- SALVAMOS QUEM É O JOGADOR 1 (O ALVO) ---
+        
         string escolhidoJ1 = DadosDoJogo.PersonagemJ1;
         GameObject bonecoAtivoJ1 = null;
 
@@ -63,7 +63,7 @@ public class GerenciadorLuta : MonoBehaviour
             bonecoAtivoJ1 = bonecoTchovisJ1;
         }
 
-        // --- SALVAMOS QUEM É O JOGADOR 2 ---
+        
         string escolhidoJ2 = DadosDoJogo.PersonagemJ2;
         GameObject bonecoAtivoJ2 = null;
 
@@ -78,13 +78,13 @@ public class GerenciadorLuta : MonoBehaviour
             bonecoAtivoJ2 = bonecoTchovisJ2;
         }
 
-        // AGORA MANDAMOS O JOGADOR 2 E AVISAMOS QUE O JOGADOR 1 É O ALVO!
+       
         if (bonecoAtivoJ2 != null && bonecoAtivoJ1 != null)
         {
             ConfigurarControleJ2(bonecoAtivoJ2, bonecoAtivoJ1.transform);
         }
 
-        // força as barras de vida a começarem cheias
+        // forï¿½a as barras de vida a comeï¿½arem cheias
         PrepararBarraVida(barraVidaJ1);
         PrepararBarraVida(barraVidaJ2);
 
@@ -138,10 +138,10 @@ public class GerenciadorLuta : MonoBehaviour
     {
         lutaAcabou = true;
 
-        // Altera o texto com o vencedor da vez
+       
         textoVitoria.text = mensagemVitoria;
 
-        // LIGA O PAINEL MÃE! (Isso faz o fundo, o texto e os botões aparecerem juntos)
+  
         if (fundoFim != null) fundoFim.SetActive(true);
 
         Time.timeScale = 0f;
@@ -151,7 +151,7 @@ public class GerenciadorLuta : MonoBehaviour
             if (musicaFimJogo != null)
             {
                 audioSource.clip = musicaFimJogo;
-                audioSource.loop = false; // Música de fim de jogo toca só uma vez
+                audioSource.loop = false; //mï¿½sica de fim de jogo toca sï¿½ uma vez
                 audioSource.Play();
             }
         }
@@ -169,7 +169,7 @@ public class GerenciadorLuta : MonoBehaviour
 
     public void ReiniciarLuta()
     {
-        Time.timeScale = 1f; //descongela o tempo, senão o jogo reinicia travado!
+        Time.timeScale = 1f; //descongela o tempo, senï¿½o o jogo reinicia travado!
         SceneManager.LoadScene(SceneManager.GetActiveScene().name); //recarrega a cena atual
     }
 
@@ -193,9 +193,9 @@ public class GerenciadorLuta : MonoBehaviour
             if (iaMedio != null) iaMedio.enabled = false;
             if (iaDificil != null) iaDificil.enabled = false;
 
-            string dif = DadosDoJogo.Dificuldade.ToLower().Replace("á", "a").Replace("í", "i");
+            string dif = DadosDoJogo.Dificuldade.ToLower().Replace("ï¿½", "a").Replace("ï¿½", "i");
 
-            // LIGA A IA E AVISA PRA ELA QUEM É O ALVO!
+ 
             if (dif == "facil" && iaFacil != null)
             {
                 iaFacil.enabled = true;
@@ -212,7 +212,7 @@ public class GerenciadorLuta : MonoBehaviour
                 iaDificil.DefinirAlvo(alvo);
             }
         }
-        else // Caso seja "DoisJogadores"
+        else 
         {
             if (controleHumano != null) controleHumano.controladoPorIA = false;
 
