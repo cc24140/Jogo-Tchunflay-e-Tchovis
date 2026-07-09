@@ -2044,6 +2044,9 @@ GameObject:
   - component: {fileID: 1075119233}
   - component: {fileID: 1075119234}
   - component: {fileID: 1075119235}
+  - component: {fileID: 1075119238}
+  - component: {fileID: 1075119237}
+  - component: {fileID: 1075119236}
   m_Layer: 0
   m_Name: tchovisJ2
   m_TagString: Untagged
@@ -2334,6 +2337,56 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1075119236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075119229}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5d55a5367ef8af45b4fc45ed65e34df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::IADificil
+  alvo: {fileID: 0}
+  distanciaAtaque: 210
+  distanciaHaduken: 430
+  distanciaMinima: 65
+  intervaloDecisao: 0.38
+--- !u!114 &1075119237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075119229}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b461262a2c4eefb43b8584d047be62cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::IAMedio
+  alvo: {fileID: 0}
+  distanciaAtaque: 190
+  distanciaHaduken: 320
+  distanciaMinima: 75
+  intervaloDecisao: 0.65
+--- !u!114 &1075119238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075119229}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 898470be9b0fbf646b18444d82010550, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::IAFacil
+  alvo: {fileID: 0}
+  distanciaAtaque: 170
+  distanciaMinima: 90
+  intervaloDecisao: 1.1
 --- !u!1 &1084789229
 GameObject:
   m_ObjectHideFlags: 0
@@ -3791,6 +3844,9 @@ GameObject:
   - component: {fileID: 2009467444}
   - component: {fileID: 2009467443}
   - component: {fileID: 2009467445}
+  - component: {fileID: 2009467448}
+  - component: {fileID: 2009467447}
+  - component: {fileID: 2009467446}
   m_Layer: 0
   m_Name: tchunflayJ2
   m_TagString: Untagged
@@ -4081,6 +4137,56 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2009467446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009467439}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5d55a5367ef8af45b4fc45ed65e34df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::IADificil
+  alvo: {fileID: 0}
+  distanciaAtaque: 210
+  distanciaHaduken: 430
+  distanciaMinima: 65
+  intervaloDecisao: 0.38
+--- !u!114 &2009467447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009467439}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b461262a2c4eefb43b8584d047be62cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::IAMedio
+  alvo: {fileID: 0}
+  distanciaAtaque: 190
+  distanciaHaduken: 320
+  distanciaMinima: 75
+  intervaloDecisao: 0.65
+--- !u!114 &2009467448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009467439}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 898470be9b0fbf646b18444d82010550, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::IAFacil
+  alvo: {fileID: 0}
+  distanciaAtaque: 170
+  distanciaMinima: 90
+  intervaloDecisao: 1.1
 --- !u!1 &2082057352
 GameObject:
   m_ObjectHideFlags: 0

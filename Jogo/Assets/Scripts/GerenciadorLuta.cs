@@ -27,8 +27,8 @@ public class GerenciadorLuta : MonoBehaviour
     public GameObject fundoFim;
     public TextMeshProUGUI textoVitoria;
 
-    [Header("Configurações da Luta")]
-    public float tempoMaximo = 91f;
+    [Header("Configuraï¿½ï¿½es da Luta")]
+    public float tempoMaximo = 90f;
 
     // as privadas da classe
     private float tempoAtual;
@@ -48,36 +48,57 @@ public class GerenciadorLuta : MonoBehaviour
         bonecoTchunflayJ2.SetActive(false);
         bonecoTchovisJ2.SetActive(false);
 
-        // ativa apenas o personagem escolhido de cada jogador
+        
         string escolhidoJ1 = DadosDoJogo.PersonagemJ1;
+        GameObject bonecoAtivoJ1 = null;
+
         if (escolhidoJ1 == "Tchunflay")
+        {
             bonecoTchunflayJ1.SetActive(true);
+            bonecoAtivoJ1 = bonecoTchunflayJ1;
+        }
         else if (escolhidoJ1 == "Tchovis")
+        {
             bonecoTchovisJ1.SetActive(true);
+            bonecoAtivoJ1 = bonecoTchovisJ1;
+        }
 
+        
         string escolhidoJ2 = DadosDoJogo.PersonagemJ2;
-        if (escolhidoJ2 == "Tchunflay")
-            bonecoTchunflayJ2.SetActive(true);
-        else if (escolhidoJ2 == "Tchovis")
-            bonecoTchovisJ2.SetActive(true);
+        GameObject bonecoAtivoJ2 = null;
 
-        // força as barras de vida a começarem cheias
+        if (escolhidoJ2 == "Tchunflay")
+        {
+            bonecoTchunflayJ2.SetActive(true);
+            bonecoAtivoJ2 = bonecoTchunflayJ2;
+        }
+        else if (escolhidoJ2 == "Tchovis")
+        {
+            bonecoTchovisJ2.SetActive(true);
+            bonecoAtivoJ2 = bonecoTchovisJ2;
+        }
+
+       
+        if (bonecoAtivoJ2 != null && bonecoAtivoJ1 != null)
+        {
+            ConfigurarControleJ2(bonecoAtivoJ2, bonecoAtivoJ1.transform);
+        }
+
+        // forï¿½a as barras de vida a comeï¿½arem cheias
         PrepararBarraVida(barraVidaJ1);
         PrepararBarraVida(barraVidaJ2);
 
-        // configura o relógio
         Time.timeScale = 1f;
         tempoMaximo = PlayerPrefs.GetFloat("tempoConfigurado", 91f);
         tempoAtual = tempoMaximo;
 
-        // Esconde o painel inteiro de fim de jogo para a luta começar limpa
         if (fundoFim != null) fundoFim.SetActive(false);
 
         audioSource = GetComponent<AudioSource>();
         if (audioSource != null && musicaFundo != null)
         {
             audioSource.clip = musicaFundo;
-            audioSource.loop = true; // Deixa a música de fundo tocando em loop
+            audioSource.loop = true;
             audioSource.Play();
         }
     }
@@ -118,10 +139,10 @@ public class GerenciadorLuta : MonoBehaviour
     {
         lutaAcabou = true;
 
-        // Altera o texto com o vencedor da vez
+       
         textoVitoria.text = mensagemVitoria;
 
-        // LIGA O PAINEL MÃE! (Isso faz o fundo, o texto e os botões aparecerem juntos)
+  
         if (fundoFim != null) fundoFim.SetActive(true);
 
         Time.timeScale = 0f;
@@ -131,7 +152,7 @@ public class GerenciadorLuta : MonoBehaviour
             if (musicaFimJogo != null)
             {
                 audioSource.clip = musicaFimJogo;
-                audioSource.loop = false; // Música de fim de jogo toca só uma vez
+                audioSource.loop = false; //mï¿½sica de fim de jogo toca sï¿½ uma vez
                 audioSource.Play();
             }
         }
@@ -149,7 +170,7 @@ public class GerenciadorLuta : MonoBehaviour
 
     public void ReiniciarLuta()
     {
-        Time.timeScale = 1f; //descongela o tempo, senão o jogo reinicia travado!
+        Time.timeScale = 1f; //descongela o tempo, senï¿½o o jogo reinicia travado!
         SceneManager.LoadScene(SceneManager.GetActiveScene().name); //recarrega a cena atual
     }
 
@@ -157,4 +178,49 @@ public class GerenciadorLuta : MonoBehaviour
     {
         SceneManager.LoadScene("MainMenu");
     }
+
+    private void ConfigurarControleJ2(GameObject bonecoJ2, Transform alvo)
+    {
+        ControleJogador controleHumano = bonecoJ2.GetComponent<ControleJogador>();
+        IAFacil iaFacil = bonecoJ2.GetComponent<IAFacil>();
+        IAMedio iaMedio = bonecoJ2.GetComponent<IAMedio>();
+        IADificil iaDificil = bonecoJ2.GetComponent<IADificil>();
+
+        if (DadosDoJogo.ModoJogo == "IA")
+        {
+            if (controleHumano != null) controleHumano.controladoPorIA = true;
+
+            if (iaFacil != null) iaFacil.enabled = false;
+            if (iaMedio != null) iaMedio.enabled = false;
+            if (iaDificil != null) iaDificil.enabled = false;
+
+            string dif = DadosDoJogo.Dificuldade.ToLower().Replace("ï¿½", "a").Replace("ï¿½", "i");
+
+ 
+            if (dif == "facil" && iaFacil != null)
+            {
+                iaFacil.enabled = true;
+                iaFacil.DefinirAlvo(alvo);
+            }
+            else if (dif == "medio" && iaMedio != null)
+            {
+                iaMedio.enabled = true;
+                iaMedio.DefinirAlvo(alvo);
+            }
+            else if (dif == "dificil" && iaDificil != null)
+            {
+                iaDificil.enabled = true;
+                iaDificil.DefinirAlvo(alvo);
+            }
+        }
+        else 
+        {
+            if (controleHumano != null) controleHumano.controladoPorIA = false;
+
+            if (iaFacil != null) iaFacil.enabled = false;
+            if (iaMedio != null) iaMedio.enabled = false;
+            if (iaDificil != null) iaDificil.enabled = false;
+        }
+    }
+
 }

@@ -36,18 +36,17 @@ public class SeletorPersonagem : MonoBehaviour
             audioSource = gameObject.AddComponent<AudioSource>();
         }
 
-        // Configura e toca a música em loop
         if (musicaMenuInicial != null)
         {
             audioSource.clip = musicaMenuInicial;
             audioSource.loop = true;
             audioSource.Play();
         }
-        // força o jogo a começar sabendo que o P1 está com o boneco de cima selecionado
+        //força o jogo a começar sabendo que o P1 está com o boneco de cima selecionado
         DadosDoJogo.PersonagemJ1 = "Tchovis";
         J1Escolhido = true;
 
-        // força o jogo a começar sabendo que o P2 está com o boneco de cima selecionado
+        //força o jogo a começar sabendo que o P2 está com o boneco de cima selecionado
         DadosDoJogo.PersonagemJ2 = "Tchovis";
         J2Escolhido = true;
 
