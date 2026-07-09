@@ -48,7 +48,6 @@ public class GerenciadorLuta : MonoBehaviour
         bonecoTchunflayJ2.SetActive(false);
         bonecoTchovisJ2.SetActive(false);
 
-        
         string escolhidoJ1 = DadosDoJogo.PersonagemJ1;
         GameObject bonecoAtivoJ1 = null;
 
@@ -62,7 +61,6 @@ public class GerenciadorLuta : MonoBehaviour
             bonecoTchovisJ1.SetActive(true);
             bonecoAtivoJ1 = bonecoTchovisJ1;
         }
-
         
         string escolhidoJ2 = DadosDoJogo.PersonagemJ2;
         GameObject bonecoAtivoJ2 = null;

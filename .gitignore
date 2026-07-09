@@ -1,12 +1,13 @@
-/[L]ibrary/
-/[T]emp/
-/[O]bj/
-/[B]uild/
-/[B]uilds/
-/[L]ogs/
-/[U]ser[S]ettings/
+/Jogo/[Ll]ibrary/
+/Jogo/[Tt]emp/
+/Jogo/[Oo]bj/
+/Jogo/[Bb]uild/
+/Jogo/[Bb]uilds/
+/Jogo/[Ll]ogs/
+/Jogo/[Uu]ser[Ss]ettings/
 
 /Jogo/.vs/
+
 *.csproj
 *.sln
 *.user

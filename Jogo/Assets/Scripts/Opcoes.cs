@@ -30,6 +30,5 @@ public class Opcoes : MonoBehaviour
             PlayerPrefs.Save();
             
         }
-        
     }
 }

@@ -37,6 +37,7 @@ public class HadukenScript : MonoBehaviour
             AudioSource.PlayClipAtPoint(somLancamento, posicao);
         }
     }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         ControleJogador jogadorAtingido = other.GetComponent<ControleJogador>();
