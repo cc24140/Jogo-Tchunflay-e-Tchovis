@@ -5,5 +5,13 @@
 /[B]uilds/
 /[L]ogs/
 /[U]ser[S]ettings/
+
+/Jogo/.vs/
 *.csproj
 *.sln
+*.user
+*.userprefs
+*.suo
+*.vsidx
+*.VC.db
+*.VC.opendb
